@@ -1,38 +1,402 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #000000;
+  font-family: "Manrope", sans-serif;
+  /* background-image: url(https://plus.unsplash.com/premium_photo-1675432656807-216d786dd468?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5pbWFsfGVufDB8fDB8fHww); */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: cursive;
+  color: #ffffff;
+}
+.Navcontainer {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rebeccapurple; */
+  justify-content: space-between;
+  position: fixed;
+  z-index: 99;
+  padding: 1.5rem;
+  /* width: 1184px; */
+  padding-left: 1.5rem;
+  width: 98%;
+  max-width: 1184px;
+  border-radius: 3.6rem;
+  align-items: center;
+  height: 6.5rem;
+  backdrop-filter: blur(10px);
+  margin-inline: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+nav {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 1rem;
+}
+.Navtitle {
+  font-weight: 900;
+}
+.Navtitle a {
+  font-size: 2rem;
+}
+.nav-book {
+  /* font-weight: 900; */
+  background-color: #5a52ff;
+  padding: 1.2rem 2.2rem 1.2rem 2.2rem;
+  transition: all 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+  border-radius: 3.6rem;
+}
+
+.nav-book:hover {
+  transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+  background-color: #3a1df5;
+  cursor: pointer;
+}
+.nav-book a {
+  font-size: 1.8rem;
+}
+
+.navlinktype {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navlink a {
+  font-weight: 500;
+}
+
+.mainnavdata {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.navlink {
+  padding: 1.5rem 2.2rem 1.5rem 2.2rem;
+  border-radius: 3.6rem;
+  transition: all 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.navlink:hover {
+  cursor: pointer;
+  background-color: #222222;
+  padding: 0.8rem 2.2rem 0.8rem 2.2rem;
+}
+
+.res-nav {
+  transition: all 0.35s ease;
+  transform: translateY(-100rem);
+}
+
+.navhamburger {
+  display: none;
+}
+@media (width<=50rem) {
+  .navlinks {
+    display: none;
+  }
+  .nav-book {
+    display: none;
+  }
+  .Navtitle a {
+    font-size: 1.5rem;
+  }
+  .navhamburger {
+    display: block;
+  }
+
+  nav {
+    padding: 0;
+  }
+  .Navcontainer {
+    width: 100%;
+    border-radius: 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hideshow {
+  /* display: block; */
+  transform: translateY(0);
+}
+
+.hamsize {
+  font-size: 2rem;
+}
+
+.res-navContainer {
+  margin-top: 6rem;
+  background-color: #111111;
+  height: 98vh;
+  position: fixed;
+  width: 100%;
+}
+
+.cont {
+  height: 500rem;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(54, 54, 54);
+  /* background-color: red; */
+  border-radius: 20px;
+}
+::-webkit-scrollbar-corner {
+  border-radius: 20rem;
+}
+
+::-webkit-scrollbar-button {
+  height: 10px;
+}
+
+.hero-sec {
+  padding-top: 112px;
+}
+
+.inqury {
+  width: 15rem;
+}
+.heroinner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  position: relative;
+  gap: 8rem;
+}
+
+/* .heroinner-container{
+  display: flex;
+  padding: 0 2.4rem;
+} */
+
+.intoduction {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+img {
+  width: 50rem;
+}
+.hi {
+  font-size: 2rem;
+}
+.intro {
+  font-size: 6.4rem;
+}
+
+.about {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+.action-hero {
+  margin-top: 3.7rem;
+}
+
+.disc {
+  font-size: 1.9rem;
+}
+
+.discin {
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media (width<=50rem) {
+  a {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .heroinner {
+    flex-direction: column;
+  }
+  .heroinner img {
+    width: 100%;
+    padding: 1.8rem;
+  }
+
+  .intoduction {
+    width: auto;
+  }
+
+  .hi {
+    text-align: center;
+  }
+
+  .intro,
+  .about {
+    text-align: center;
+  }
+
+  .intro {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .about {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .disc {
+    text-align: center;
+  }
+
+  .discin {
+    display: block;
+  }
+
+  .actbtn{
+  display: flex;
+  justify-content: center;
+}
+
+}
+
+.action-hero1 {
+  margin-top: 3.7rem;
+}
+
+.inqury1 {
+  width: 15rem;
+}
+
+.nav-book1 {
+  background-color: #5a52ff;
+  padding: 1.3rem 2.4rem 1.3rem 2.4rem;
+  transition: all 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+  border-radius: 3.6rem;
+  width: 15.5rem;
+}
+
+.nav-book1:hover {
+  transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+  background-color: #3a1df5;
+  cursor: pointer;
+}
+.nav-book1 a {
+  font-size: 1.8rem;
+  font-family: "Manrope", sans-serif;
+}
+
+.Clients-tab{
+  width: 100%;
+  padding: 6.4rem 0 4.8rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.clientheader{
+  font-size: 3.2rem;
+}
+
+.client-data{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-name{
+display: flex;
+
+padding: 1.6rem;
+}
+
+.client-logo{
+  width: 20rem;
+  height: 4.2rem;
+}
+
+@media (width<=50rem) {
+.clients-name{
+flex-wrap: wrap;
+justify-content: center;
+}
+.client-logo{
+  width: 15rem;
+  height: 4.2rem;
+}
+}
+.Recent-work{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.r-header{
+  font-size: 3.6rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Rcardcontainer{
+  width: 90.5rem;
+  height: 40.2rem;
+  border: 1px solid #333;
+  padding: 3.6rem;
+  transition: 0.3s;
+  border-radius: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Rcardcontainer:hover{
+  border-color:#5A52FF;
+}
+
+
+.rcard-header{
+  padding: 0.8rem 1.4rem ;
+  background-color: rgba(255, 255, 255, 0.11);
+  border-radius: 2.6rem;
+
+}
+
+.rcard-header p{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+
+.rcard-image{
+  height: 33rem;
+  /* width: 44.8rem; */
+  width: 45%;
+  border-radius: 2.6rem;
+}
+.other-data-title{
+  width: 45%;
+}
+
+.rcardcontiner-title{
+  font-size: 3.6rem;
+}
+
+.link-rcard{
+  font-family: "Manrope", sans-serif;
+  padding: 1.2rem;
+  
 }
