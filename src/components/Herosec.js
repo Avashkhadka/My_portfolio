@@ -1,4 +1,5 @@
 import React from "react";
+// import hero from "../images/hero.png";`
 import hero from "../images/hero.jpg";
 
 export default function Herosec() {

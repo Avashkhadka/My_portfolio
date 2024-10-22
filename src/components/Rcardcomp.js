@@ -17,7 +17,11 @@ function Rcardcomp(props) {
           <p>{props.data.header}</p>
         </div>
         <p className="rcardcontiner-title">{props.data.title}</p>
-        <a className="link-rcard" href="">View Live Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        {/* eslint-disable-next-line */}
+        <a className="link-rcard" target="_blank" href={props.data.link}>
+          <p>View Live Project </p>
+          <i className="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
       </div>
       <div className="rcard-image" style={Rcardimgcontainerbf}></div>
     </div>
