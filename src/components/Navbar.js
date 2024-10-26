@@ -2,8 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   const Handleham = () => {
-    document.querySelector(".res-nav").classList.toggle("hideshow");
-    window.scrollBy(0,-10000);
+    document.querySelector(".res-nav").style.display="block";
   };
   return (
     <React.Fragment>
@@ -37,17 +36,7 @@ export default function Navbar() {
       </nav>
 
       <div className="res-nav">
-        <div className="res-navContainer">
-          <div className="res-link">
-            <a href="/">Works</a>
-          </div>
-          <div className="res-link">
-            <a href="/">About Us</a>
-          </div>
-          <div className="res-link">
-            <a href="/">Contact Us</a>
-          </div>
-        </div>
+        
       </div>
     </React.Fragment>
   );

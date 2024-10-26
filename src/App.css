@@ -98,11 +98,6 @@ nav {
   padding: 0.8rem 2.2rem 0.8rem 2.2rem;
 }
 
-.res-nav {
-  transition: all 0.35s ease;
-  transform: translateY(-100rem);
-}
-
 .navhamburger {
   display: none;
 }
@@ -129,21 +124,8 @@ nav {
   }
 }
 
-.hideshow {
-  /* display: block; */
-  transform: translateY(0);
-}
-
 .hamsize {
   font-size: 2rem;
-}
-
-.res-navContainer {
-  margin-top: 6rem;
-  background-color: #111111;
-  height: 98vh;
-  position: fixed;
-  width: 100%;
 }
 
 .cont {
@@ -183,7 +165,7 @@ nav {
   height: auto;
   align-items: center;
   position: relative;
-  gap: 8rem;
+  gap: 5rem;
 }
 
 /* .heroinner-container{
@@ -267,11 +249,10 @@ img {
     display: block;
   }
 
-  .actbtn{
-  display: flex;
-  justify-content: center;
-}
-
+  .actbtn {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .action-hero1 {
@@ -300,18 +281,18 @@ img {
   font-family: "Manrope", sans-serif;
 }
 
-.Clients-tab{
+.Clients-tab {
   width: 100%;
   padding: 6.4rem 0 4.8rem 0;
   display: flex;
   justify-content: center;
 }
 
-.clientheader{
+.clientheader {
   font-size: 3.2rem;
 }
 
-.client-data{
+.client-data {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -319,90 +300,88 @@ img {
   align-items: center;
 }
 
-.clients-name{
-display: flex;
+.clients-name {
+  display: flex;
 
-padding: 1.6rem;
+  padding: 1.6rem;
 }
 
-.client-logo{
+.client-logo {
   width: 20rem;
   height: 4.2rem;
 }
 
 @media (width<=50rem) {
-.clients-name{
-flex-wrap: wrap;
-justify-content: center;
+  .clients-name {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .client-logo {
+    width: 15rem;
+    height: 4.2rem;
+  }
 }
-.client-logo{
-  width: 15rem;
-  height: 4.2rem;
-}
-}
-.Recent-work{
+.Recent-work {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3rem;
 }
 
-.r-header{
+.r-header {
   font-size: 3.6rem;
 }
 
-
-.Rcardcontainer{
-  width: 90.5rem;
-  height: 40.2rem;
+.Rcardcontainer {
+  max-width: 90.5rem;
+  max-height: 40.2rem;
   border: 1px solid #333;
   padding: 3.6rem;
   transition: 0.5s;
   border-radius: 2.4rem;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 
-.Rcardcontainer:hover{
-  border-color:#5A52FF;
+.Rcardcontainer:hover {
+  border-color: #5a52ff;
 }
 .Rcardcontainer:hover .link-rcard i {
-
   transform: translate(1px, -1px);
 }
 
-
-.rcard-header{
-  padding: 0.8rem 1.4rem ;
+.rcard-header {
+  padding: 0.8rem 1.4rem;
   background-color: rgba(255, 255, 255, 0.11);
   border-radius: 2.6rem;
-
 }
 
-.rcard-header p{
+.rcard-header p {
   font-size: 1.4rem;
   font-weight: 500;
 }
 
-
-.rcard-image{
+.rcard-image {
   height: 33rem;
   /* width: 44.8rem; */
   width: 45%;
-  border-radius: 2.6rem;
+  border-radius: 1.6rem;
+  overflow: hidden;
+  position: relative;
 }
-.other-data-title{
+.other-data-title {
   width: 45%;
   display: flex;
   flex-direction: column;
-  gap:2rem;
+  gap: 2rem;
 }
 
-.rcardcontiner-title{
+.rcardcontiner-title {
   font-size: 3rem;
 }
 
-.link-rcard{
+.link-rcard {
   font-family: "Manrope", sans-serif;
   padding: 1.2rem;
   font-size: 1.8rem;
@@ -411,7 +390,75 @@ justify-content: center;
   cursor: pointer;
   transition: 0.3s;
 }
-.link-rcard i{
+.link-rcard i {
   transform: translate(0px, 2px);
   transition: 0.3s;
+}
+
+.rcard-img-1 {
+  width: 38rem;
+  object-fit: contain;
+  position: relative;
+  top: -13px;
+  left: -5px;
+  transition: 0.3s;
+}
+.rcard-img-2 {
+  width: 39rem;
+  object-fit: contain;
+  position: relative;
+  top: 29px;
+  left: -4px;
+  transition: 0.3s;
+}
+.Rcardcontainer:hover .rcard-img-1,
+.Rcardcontainer:hover .rcard-img-2 {
+  transform: scale(1.07);
+}
+
+@media (width<=50rem) {
+  .Rcardcontainer {
+    flex-direction: column-reverse;
+    max-width: 36rem;
+    max-height: 70rem;
+    gap: 2rem;
+  }
+
+  .other-data-title {
+    width: 100%;
+    align-items: center;
+  }
+
+  .rcardcontiner-title {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 28px;
+  }
+
+  .rcard-image {
+    width: 100%;
+    height: 25rem;
+  }
+  .rcard-img-1 {
+    width: 39rem;
+    left: -58px;
+    top: -35px;
+  }
+  .rcard-header {
+    text-align: center;
+  }
+
+  .r-header,
+  .clientheader {
+    font-size: 28px;
+  }
+}
+
+.res-nav {
+  width: 100%;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  background-color: rebeccapurple;
 }

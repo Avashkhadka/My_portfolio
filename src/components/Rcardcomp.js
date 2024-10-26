@@ -1,14 +1,15 @@
 import React from "react";
-
 function Rcardcomp(props) {
   let Rcardcontainerbf = {
     // background-image:linear-gradient( 145deg , #073655 ,#020A0D) ;
-    backgroundImage: `linear-gradient(146deg, ${props.lgfirst},${props.lgsec})`,
+    backgroundImage: `linear-gradient(146deg, ${props.data.lgfirst},${props.data.lgsec})`,
   };
 
+
   let Rcardimgcontainerbf = {
-    backgroundImage: `linear-gradient(to bottom, ${props.lgimgfirst},${props.lgimgsec})`,
+    backgroundImage: `linear-gradient(to bottom, ${props.data.lgimgfirst},${props.data.lgimgsec})`,
   };
+
 
   return (
     <div className="Rcardcontainer" style={Rcardcontainerbf}>
@@ -23,7 +24,10 @@ function Rcardcomp(props) {
           <i className="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       </div>
-      <div className="rcard-image" style={Rcardimgcontainerbf}></div>
+      <div className="rcard-image" style={Rcardimgcontainerbf}>
+        <img src={props.data.image} alt="" className={`rcard-img-${props.ind}`}/>
+
+      </div>
     </div>
   );
 }

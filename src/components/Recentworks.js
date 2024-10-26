@@ -1,6 +1,7 @@
 import React from 'react'
 import Rcardcomp from './Rcardcomp'
-
+import diyo from '../images/DiyoPcView.jpg'
+import triv from '../images/TRIV.png'
 export default function Recentworks() {
 
   const works=[
@@ -8,9 +9,9 @@ export default function Recentworks() {
       header:"💻 Comprehensive student database.",
       title:"🏆 First Customer Demand Project: A student database web application for digitization.",
       link:"https://onedotsolutions.com.np/trivschool",
-      image:"",
+      image:triv,
       lgfirst:"#073655",
-      lglast:"#020A0D",
+      lgsec:"#020A0D",
       lgimgfirst:"#3C9BD1",
       lgimgsec:"#123448",
     },
@@ -18,22 +19,22 @@ export default function Recentworks() {
       header:"💪 Efficient cooperative website, expertly built.",
       title:"Diyo Saving and Credit Cooperative Pvt. Ltd. | Empowering Financial Growth Together",
       link:"https://diyosaving.com.np/",
-      image:"",
+      image:diyo,
       lgfirst:"#510b0b",
-      lglast:"#090202 ",
+      lgsec:"#090202 ",
       lgimgfirst:"#B94E4E",
       lgimgsec:"#621515",
     },
-    {
-      header:"🖊 Advanced text manipulation website.",
-      title:"Ultimate Text Utilities for Efficient Content Processing Edit, and Enhance Your Writing with Ease",
-      link:"https://avashkhadka.com.np/react/textutils/",
-      image:"",
-      lgfirst:"#522d05",
-      lglast:"#020809 ",
-      lgimgfirst:"#A96114",
-      lgimgsec:"#613607",
-    },
+    // {
+    //   header:"🖊 Advanced text manipulation website.",
+    //   title:"Ultimate Text Utilities for Efficient Content Processing Edit, and Enhance Your Writing with Ease",
+    //   link:"https://avashkhadka.com.np/react/textutils/",
+    //   image:"",
+    //   lgfirst:"#522d05",
+    //   lgsec:"#020809 ",
+    //   lgimgfirst:"#A96114",
+    //   lgimgsec:"#613607",
+    // },
   ]
 
 
@@ -45,7 +46,7 @@ export default function Recentworks() {
     {
       works.map((item,index)=>{
         return(
-          <Rcardcomp key={index} data={item} lgfirst={item.lgfirst}  lgsec={item.lglast} lgimgfirst={item.lgimgfirst} lgimgsec={item.lgimgsec}/>
+          <Rcardcomp key={index} data={item} ind={index+1}/>
         )
       })
     }
