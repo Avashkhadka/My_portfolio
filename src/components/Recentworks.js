@@ -39,7 +39,7 @@ export default function Recentworks() {
 
 
   return (
-    <div className='Recent-work'>
+    <div className='Recent-work' >
       <div className="r-header">
         Recent works
       </div>

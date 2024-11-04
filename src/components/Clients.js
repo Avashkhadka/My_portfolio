@@ -18,7 +18,7 @@ function Clients() {
           <div>
             <img className="client-logo" src={client3} alt="" />
           </div>
-          <div>
+          <div id='works'>
             <img className="client-logo" src={client4} alt="" />
           </div>
         </div>

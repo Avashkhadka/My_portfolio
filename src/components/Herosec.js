@@ -1,6 +1,7 @@
 import React from "react";
 // import hero from "../images/hero.png";`
 import hero from "../images/hero.jpg";
+import myCv from "../images/myCv.jpg";
 
 export default function Herosec() {
   return (
@@ -23,7 +24,7 @@ export default function Herosec() {
 
           <div className="action-hero1">
             <div className="nav-book1 inqury1">
-              <a href="/">Send inquiry</a>
+              <a href={myCv} download="Avash'sCv.jpg">Download Resume </a>
             </div>
           </div>
           </div>

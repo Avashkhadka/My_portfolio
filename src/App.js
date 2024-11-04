@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar";
 import Herosec from "./components/Herosec";
 import Recentworks from "./components/Recentworks";
 import Clients from "./components/Clients";
+import Kindwords from "./components/Kindwords";
+import Aboutme from "./components/Aboutme";
+import Footer from "./components/Footer";
 
 function App() {
   
@@ -13,8 +16,11 @@ function App() {
       <Herosec />
       <Clients/>
       <Recentworks/>
-      <div className="cont">
-      </div>
+      <Kindwords/>
+      <Aboutme/>
+      <Footer/>
+      {/* <div className="cont">
+      </div> */}
       </React.Fragment>
   );
 }
