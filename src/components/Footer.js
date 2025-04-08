@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import myCv from "../images/myCv.jpg";
-function Footer() {
+import myCv from "../images/MYCV.pdf";
+function Footer({refloc}) {
   let CardHead = [
     {
       name: "Linkedin",
@@ -36,7 +36,15 @@ function Footer() {
       } else {
         uniHour = `${hour}`;
       }
+      if(hour<10){
+         uniHour=`0${hour}`
+      }
+
       let min = new Date().getMinutes();
+
+      if(min<10){
+        min=`0${min}`
+      }
       // return(`${uniHour}:${min}:${sec}`)
       settime(`${uniHour}:${min} ${hour > 12 ? "PM" : "AM"}`);
     }, 1000);
@@ -65,12 +73,11 @@ function Footer() {
     getTemp();
   }, []);
   return (
-    <div className="footer-container" id="contact">
+    <div ref={refloc} className="footer-container scrolltotop" id="contact">
       <p>Contact</p>
       <div className="contact-grid">
         <p>
-          Get in touch with me for full-time job opportunities, freelance,
-          design advice, or simply say to hello 😃
+          Get in touch with me 😃
         </p>
       </div>
       <div className="footer-container-links">
@@ -78,7 +85,7 @@ function Footer() {
           {CardHead.map((item, index) => {
             return <Linkcards item={item} key={index} />;
           })}
-          <a className="footer-link-card downloadcv" href={myCv} download="Avash's.jpg">
+          <a className="footer-link-card downloadcv" href={myCv} download="Cv.pdf">
             <div className="footer-left">
               <p className="soc-icon"><i className="fa-regular fa-paper-plane"></i></p>
               <p className="footer-social-name">Download CV</p>

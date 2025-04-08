@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
-export default function Navbar() {
+export default function Navbar({handlescroll}) {
+  console.log(handlescroll)
+  let {handleHomeScrolltoup, handleWorkScrolltoup, handleAboutmeScrolltoup, handleContactScrolltoup}=handlescroll
   let [navMenuToggle, setnavMenuToggle] = useState(true);
 
   const Handleham = () => {
@@ -9,34 +11,44 @@ export default function Navbar() {
       document.querySelector(".res-nav").style.top = "0%";
     } else {
       setnavMenuToggle(true);
-      document.querySelector(".res-nav").style.top = "-100%";
+      document.querySelector(".res-nav").style.top = "-120%";
     }
   };
+
+  let Navarr = Array.from(document.querySelectorAll(".res-link-menu"));
+  // eslint-disable-next-line
+  Navarr.map((item) => {
+    item.addEventListener("click", () => {
+      setnavMenuToggle(true);
+      document.querySelector(".res-nav").style.top = "-120%";
+    });
+  });
 
   return (
     <React.Fragment>
       <nav>
-        <div className="Navcontainer">
+        <div className="Navcontainer" >
           <div className="mainnavdata">
-            <div className="Navtitle">
-              <a href="/">Avash Khadka</a>
-            </div>
+            <span className="scrolllink" onClick={handleHomeScrolltoup}>
+              <div className="Navtitle">Avash Khadka</div>
+            </span>
+
             <div className="navlinks">
               <div className="navlinktype">
-                <div className="navlink">
-                  <a href="#works">Works</a>
-                </div>
-                <div className="navlink">
-                  <a href="#about">About Me</a>
-                </div>
-                <div className="navlink">
-                  <a href="#contact">Contact</a>
-                </div>
+                <span className="scrolllink" onClick={handleWorkScrolltoup}>
+                  <div className="navlink">Works</div>
+                </span>
+                <span className="scrolllink" onClick={handleAboutmeScrolltoup}>
+                  <div className="navlink">About Me</div>
+                </span>
+                <span className="scrolllink" onClick={handleContactScrolltoup}>
+                  <div className="navlink">Contact</div>
+                </span>
               </div>
             </div>
           </div>
           <div className="nav-book">
-            <a href="/">Book a call</a>
+            <a href="mailto:avash2063@gmail.com">Book a call</a>
           </div>
           <div className="navhamburger" onClick={Handleham}>
             <i className="fa-solid fa-bars fa-lg hamsize"></i>
@@ -46,18 +58,20 @@ export default function Navbar() {
 
       <div className={`res-nav`}>
         <div className="res-nav-link-container">
-          <div className="res-nav-links">
-            <a href="#works">Works</a>
+          <div className="res-nav-links res-link-menu">
+            <span className="scrolllink" onClick={handleWorkScrolltoup}>Works</span>
           </div>
-          <div className="res-nav-links">
-            <a href="#about">About Us</a>
+          <div className="res-nav-links res-link-menu">
+            <span className="scrolllink" onClick={handleAboutmeScrolltoup}>About Us</span>
           </div>
-          <div className="res-nav-links">
-            <a href="#contact">Contact</a>
+          <div className="res-nav-links res-link-menu">
+            <span className="scrolllink" onClick={handleContactScrolltoup}>Contact</span>
           </div>
-          <div className="res-nav-connect">
+          <div className="res-nav-connect ">
             <div className="res-nav-info">
-              <p><strong>Let's connect!</strong></p>
+              <p>
+                <strong>Let's connect!</strong>
+              </p>
               <p>
                 Do you have any projects in mind? Share them with me, and let's
                 do it.
@@ -76,10 +90,26 @@ export default function Navbar() {
           <div className="res-nav-footer-container">
             <p>Follow me!</p>
             <div className="res-nav-footer-follow-links">
-              <div className="res-nav-footer-follow-link"><a href="https://www.linkedin.com/in/avash-khadka-720886308/"><i className="fa-brands fa-linkedin-in"></i></a></div>
-              <div className="res-nav-footer-follow-link"><a href="https://www.instagram.com/aavash.khadka_"><i className="fa-brands fa-instagram"></i></a></div>
-              <div className="res-nav-footer-follow-link"><a href="https://x.com/avashkhadka10"><i className="fa-brands fa-x-twitter"></i></a></div>
-              <div className="res-nav-footer-follow-link"><a href="https://github.com/Avashkhadka"><i className="fa-brands fa-github"></i></a></div>
+              <div className="res-nav-footer-follow-link">
+                <a href="https://www.linkedin.com/in/avash-khadka-720886308/">
+                  <i className="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+              <div className="res-nav-footer-follow-link">
+                <a href="https://www.instagram.com/aavash.khadka_">
+                  <i className="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div className="res-nav-footer-follow-link">
+                <a href="https://x.com/avashkhadka10">
+                  <i className="fa-brands fa-x-twitter"></i>
+                </a>
+              </div>
+              <div className="res-nav-footer-follow-link">
+                <a href="https://github.com/Avashkhadka">
+                  <i className="fa-brands fa-github"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>

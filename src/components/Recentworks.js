@@ -2,7 +2,7 @@ import React from 'react'
 import Rcardcomp from './Rcardcomp'
 import diyo from '../images/DiyoPcView.jpg'
 import triv from '../images/TRIV.png'
-export default function Recentworks() {
+export default function Recentworks({refloc}) {
 
   const works=[
     {
@@ -29,7 +29,7 @@ export default function Recentworks() {
     //   header:"🖊 Advanced text manipulation website.",
     //   title:"Ultimate Text Utilities for Efficient Content Processing Edit, and Enhance Your Writing with Ease",
     //   link:"https://avashkhadka.com.np/react/textutils/",
-    //   image:"",
+    //   image:privateimg,
     //   lgfirst:"#522d05",
     //   lgsec:"#020809 ",
     //   lgimgfirst:"#A96114",
@@ -39,7 +39,7 @@ export default function Recentworks() {
 
 
   return (
-    <div className='Recent-work' >
+    <div ref={refloc} className='Recent-work scrolltotop' >
       <div className="r-header">
         Recent works
       </div>

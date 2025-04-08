@@ -1,11 +1,11 @@
 import React from "react";
 // import hero from "../images/hero.png";`
 import hero from "../images/hero.jpg";
-import myCv from "../images/myCv.jpg";
+import myCv from "../images/MYCV.pdf";
 
-export default function Herosec() {
+export default function Herosec({refloc}) {
   return (
-    <div className="hero-sec">
+    <div className="hero-sec scrolltotop"  id="home" ref={refloc}>
       <div className="heroinner">
         <div className="intoduction">
           <p className="hi">Hello there👋</p>
@@ -22,11 +22,13 @@ export default function Herosec() {
           </div>
           <div className="actbtn">
 
-          <div className="action-hero1">
-            <div className="nav-book1 inqury1">
-              <a href={myCv} download="Avash'sCv.jpg">Download Resume </a>
+            <div className="action-hero1">
+              <a href={myCv} className="" download="Cv.pdf">
+                <div className="nav-book1 download-resume inqury1">
+                  Download Resume
+                </div>
+              </a>
             </div>
-          </div>
           </div>
         </div>
 

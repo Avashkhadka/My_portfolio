@@ -1,10 +1,10 @@
 import React from "react";
 import mypfp from "../images/hero.jpg";
-function Aboutme() {
+function Aboutme({refloc}) {
   let lable = ["Web App", "Product Design", "Interactive Prototype", "Backend Dev","Database","Website"];
 
   return (
-    <div className="aboutme-container">
+    <div className="aboutme-container scrolltotop" ref={refloc}>
       <p className="aboutme-aboutme-title">About Me</p>
       <div className="aboutme-details">
         <div className="aboutme-right">
