@@ -7,7 +7,7 @@ function Clients() {
   return (
     <div className="Clients-tab">
       <div className="client-data">
-        <div className="clientheader">Awesome Clients</div>
+        <div className="clientheader"> Awesome Clients</div>
         <div className="clients-name">
           <div>
             <img className="client-logo" src={client1} alt="" />

@@ -2,7 +2,8 @@ import React from "react";
 import mypfp from "../images/hero.jpg";
 function Aboutme({refloc}) {
   let lable = ["Web App", "Product Design", "Interactive Prototype", "Backend Dev","Database","Website"];
-
+let data=new Date().getFullYear();
+let myexpyear=data-2023
   return (
     <div className="aboutme-container scrolltotop" ref={refloc}>
       <p className="aboutme-aboutme-title">About Me</p>
@@ -12,7 +13,7 @@ function Aboutme({refloc}) {
             From Curiosity to Code: My Journey in Frontend Development!
           </div>
           <div className="aboutme-para">
-            I'm Avash Khadka, a frontend developer from Nepal with a year of
+            I'm Avash Khadka, a frontend developer from Nepal with {myexpyear} years of
             experience in creating engaging web applications. My journey began
             in class 8 when I discovered HTML, igniting my curiosity about web
             design. Since then, I've dedicated myself to mastering web

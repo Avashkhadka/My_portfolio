@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import myCv from "../images/MYCV.pdf";
-function Footer({refloc}) {
+function Footer({ refloc }) {
   let CardHead = [
     {
       name: "Linkedin",
@@ -23,7 +23,7 @@ function Footer({refloc}) {
       link: "https://x.com/avashkhadka10",
     },
   ];
-  
+
 
   let Thisyear = new Date().getFullYear();
   const [time, settime] = useState("");
@@ -36,14 +36,14 @@ function Footer({refloc}) {
       } else {
         uniHour = `${hour}`;
       }
-      if(hour<10){
-         uniHour=`0${hour}`
+      if (hour < 10) {
+        uniHour = `0${hour}`
       }
 
       let min = new Date().getMinutes();
 
-      if(min<10){
-        min=`0${min}`
+      if (min < 10) {
+        min = `0${min}`
       }
       // return(`${uniHour}:${min}:${sec}`)
       settime(`${uniHour}:${min} ${hour > 12 ? "PM" : "AM"}`);
@@ -111,6 +111,16 @@ function Footer({refloc}) {
     </div>
   );
 }
+
+export const GoToTop = ({ refloc,handlescroll }) => {
+  return (
+    <div className="Gotoup" ref={refloc} onClick={handlescroll} >
+      <i className="fa-solid fa-arrow-up"></i>
+    </div>
+  )
+}
+
+
 
 const Linkcards = (props) => {
   return (

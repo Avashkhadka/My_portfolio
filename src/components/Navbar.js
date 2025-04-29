@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 
-export default function Navbar({handlescroll}) {
-  console.log(handlescroll)
-  let {handleHomeScrolltoup, handleWorkScrolltoup, handleAboutmeScrolltoup, handleContactScrolltoup}=handlescroll
+export default function Navbar({ handlescroll }) {
+  let { handleHomeScrolltoup, handleWorkScrolltoup, handleAboutmeScrolltoup, handleContactScrolltoup, handleservicesScrolltoup } = handlescroll
   let [navMenuToggle, setnavMenuToggle] = useState(true);
 
   const Handleham = () => {
@@ -35,8 +34,11 @@ export default function Navbar({handlescroll}) {
 
             <div className="navlinks">
               <div className="navlinktype">
-                <span className="scrolllink" onClick={handleWorkScrolltoup}>
-                  <div className="navlink">Works</div>
+                <span className="scrolllink " onClick={handleWorkScrolltoup}>
+                  <div className="navlink ">Works</div>
+                </span>
+                <span className="scrolllink" onClick={handleservicesScrolltoup}>
+                  <div className="navlink">Services</div>
                 </span>
                 <span className="scrolllink" onClick={handleAboutmeScrolltoup}>
                   <div className="navlink">About Me</div>
@@ -60,6 +62,9 @@ export default function Navbar({handlescroll}) {
         <div className="res-nav-link-container">
           <div className="res-nav-links res-link-menu">
             <span className="scrolllink" onClick={handleWorkScrolltoup}>Works</span>
+          </div>
+          <div className="res-nav-links res-link-menu">
+            <span className="scrolllink" onClick={handleservicesScrolltoup}>Services</span>
           </div>
           <div className="res-nav-links res-link-menu">
             <span className="scrolllink" onClick={handleAboutmeScrolltoup}>About Us</span>

@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+:root {
+  --primaryBg: #1F242D;
+  --secondarybg: #1F242D;
+  --mainColor: #5A52FF;
+  --secondarytextcolor: #4FF57A;
+}
 
 * {
   padding: 0;
@@ -22,7 +30,7 @@ a,
 .scrolllink {
   text-decoration: none;
   font-size: 1.5rem;
-  font-family: cursive;
+  font-family: cursive, Arial, Helvetica, sans-serif;
   color: #ffffff;
   cursor: pointer;
 }
@@ -116,6 +124,13 @@ nav {
   display: none;
 }
 
+
+.Currentactive {
+  cursor: pointer;
+  background-color: #222222;
+  padding: 0.8rem 2.2rem 0.8rem 2.2rem;
+}
+
 @media (width<=50rem) {
   .navlinks {
     display: none;
@@ -192,7 +207,7 @@ nav {
   height: auto;
   align-items: center;
   position: relative;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 /* .heroinner-container{
@@ -323,7 +338,7 @@ img {
 }
 
 .clientheader {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
 }
 
 .client-data {
@@ -364,6 +379,7 @@ img {
   align-items: center;
   gap: 3rem;
   padding-bottom: 4.8rem;
+
 }
 
 .scrolltotop {
@@ -804,7 +820,7 @@ img {
   display: flex;
   justify-content: center;
   margin-inline: auto;
-  max-width: 90rem;
+  max-width: 95.4rem;
   flex-direction: column;
   gap: 3rem;
 }
@@ -823,7 +839,8 @@ img {
 
 .aboutme-details {
   display: flex;
-  gap: 6rem;
+  gap: 4rem;
+
 }
 
 .aboutme-right {
@@ -932,7 +949,7 @@ img {
   border-radius: 16px;
   background-color: #1a1a1a;
   font-family: "Manrope", sans-serif;
-  max-width: 298px;
+  max-width: 287px;
   width: 100%;
   transition: 0.3s;
 }
@@ -1012,13 +1029,20 @@ img {
   background-color: #3A1DF5;
 }
 
+.download-resume {
+  font-size: 1.8rem;
+  font-family: "Manrope", sans-serif;
+}
+
+
+
 .Gotoup {
   display: flex;
   justify-content: center;
   font-size: 2rem;
   align-items: center;
   bottom: 5rem;
-  right: 10rem;
+  right: -10rem;
   /* z-index: 73; */
   background-color: #222222;
   padding: 1rem;
@@ -1027,9 +1051,316 @@ img {
   width: 50px;
   position: fixed;
   cursor: pointer;
+  /* transition: 0.1s; */
+  transition: 0.2s cubic-bezier(.24, .62, .59, 1.2)
 }
 
-.download-resume {
-  font-size: 1.8rem;
-  font-family: "Manrope", sans-serif;
+@media (width<=65rem) {
+
+  .Gotoup {
+    font-size: 1.5rem;
+    bottom: 3.5rem;
+    height: 45px;
+    width: 45px;
+    right: -10rem;
+    opacity: 0.7;
+  }
+}
+
+@media (width<=400px) {
+
+  .Gotoup {
+    font-size: 1.5rem;
+    bottom: 3.5rem;
+    height: 45px;
+    width: 45px;
+    right: -10rem;
+    opacity: 0.7;
+  }
+
+}
+
+
+.port-section {
+  position: relative;
+  width: 100%;
+  padding: 0rem 9% 4.8rem;
+  /* padding: 0rem 19.3% 0rem; */
+  display: flex;
+  justify-content: center;
+}
+
+.under-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90.5rem;
+}
+
+.servicesItem {
+  background-color: #1A1A1A;
+  border: 0.2px solid #000000;
+  border-radius: 1rem;
+  padding: 3rem 2.5rem;
+  transition: 0.5s;
+}
+
+.servicesItem:hover {
+  border-color: #5A52FF;
+  transform: scale(1.02);
+}
+
+
+
+
+.servicesItem .serv-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.serv-icon-rightIcon {
+  padding: 1rem;
+  background-color: #333333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  transition: 1s;
+}
+
+/* .serv-icon-rightIcon i {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-45deg);
+} */
+
+.serv-icon>i {
+  font-size: 2.5rem;
+  transition: 0.5s;
+}
+
+
+
+.serv-icon-rightIcon:hover {
+  transform: rotate(-90deg);
+
+}
+
+.serv-icon-rightIcon>i {
+  font-size: 2rem;
+  transition: 0.5s;
+
+}
+
+.serv-header {
+  font-size: 3rem;
+  margin: .5rem 0 2rem;
+
+}
+
+.serv-header h3 {
+  transition: 0.5s;
+}
+
+.container-services-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.serv-header h3 {
+  font-size: 3rem;
+}
+
+.serv-content p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+
+.serv-section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+
+}
+
+.servicesItem:hover .serv-icon,
+.servicesItem:hover .serv-header h3,
+.servicesItem:hover .serv-icon>i {
+  color: #5A52FF;
+}
+
+.servicesItem:hover .serv-icon-rightIcon {
+  background-color: #5A52FF;
+}
+
+
+
+@media (width<=65rem) {
+
+  .port-section {
+    padding: 0rem 6% 0rem;
+  }
+}
+
+
+
+.Resume-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5rem;
+  max-width: 90.5rem;
+}
+
+.Resume-navigation-header {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.Resume-navigation-content {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.resume-navigation-link {
+  all: unset;
+  text-align: center;
+  width: 100%;
+  height: 5.3rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+  background-color: #1A1A1A;
+}
+
+
+.resume-navigation-link-active {
+
+  border: 1px solid var(--secondarytextcolor);
+  color: var(--secondarytextcolor);
+
+}
+
+
+@media (width<=76rem) {
+  .Resume-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.Errorpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: "Cal Sans", sans-serif;
+  font-style: normal;
+}
+
+.Errorpage p {
+  font-size: 20rem;
+}
+
+.Errorpage span {
+  transform: translateY(-30px);
+  font-size: 2rem;
+  font-family: manrope;
+}
+
+.Errorpage button {
+  all: unset;
+  font-family: Manrope;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: #333333;
+  border-radius: 10px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.Errorpage button:hover {
+  border: 2px solid #3A1DF5;
+}
+
+.rescomponentHeading>h2 {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.rescomponentHeading>h2>span {
+  color: var(--secondarytextcolor);
+}
+
+.rescomponentHeading>p {
+  font-size: 1.6rem;
+  margin: 2rem 0 2.5rem;
+}
+
+
+.ResumecardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+  height: 45rem;
+  overflow: auto;
+}
+
+.ResumeCard {
+  background-color: #1A1A1A;
+  padding: 3rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.ResumeCard p:first-child {
+  font-size: 1.6rem;
+  color: var(--secondarytextcolor);
+  font-weight: 600;
+}
+
+.ResumeCard p:nth-child(2) {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+.ResumeCard p:nth-child(3) {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.ResumeCard ul li::marker {
+  color: var(--secondarytextcolor);
+  font-size: 2rem;
+}
+
+.ResumeCard p:nth-child(4){
+  font-size: 1.6rem;
 }
