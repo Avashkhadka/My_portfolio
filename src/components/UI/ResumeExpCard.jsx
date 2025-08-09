@@ -8,11 +8,11 @@ function ResumeExpCard({ data }) {
         {data.startTime}-{data.endTime === curryear ? "Current" : data.endTime}
       </p>
       <p>{data.post}</p>
-      <p>
-        <ul>
-          <li>{data.institution}</li>
-        </ul>
-      </p>
+
+      <ul>
+        <li>{data.institution}</li>
+      </ul>
+
       <p>{data.Discription}</p>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Navbar({ handlescroll }) {
-  let { handleHomeScrolltoup, handleWorkScrolltoup, handleAboutmeScrolltoup, handleContactScrolltoup, handleservicesScrolltoup } = handlescroll
+  let { handleHomeScrolltoup, handleWorkScrolltoup, handleAboutmeScrolltoup, handleContactScrolltoup, handleservicesScrolltoup, handleResumeScrolltoup } = handlescroll
   let [navMenuToggle, setnavMenuToggle] = useState(true);
 
   const Handleham = () => {
@@ -40,6 +40,9 @@ export default function Navbar({ handlescroll }) {
                 <span className="scrolllink" onClick={handleservicesScrolltoup}>
                   <div className="navlink">Services</div>
                 </span>
+                <span className="scrolllink" onClick={handleResumeScrolltoup}>
+                  <div className="navlink">Resume</div>
+                </span>
                 <span className="scrolllink" onClick={handleAboutmeScrolltoup}>
                   <div className="navlink">About Me</div>
                 </span>
@@ -66,6 +69,9 @@ export default function Navbar({ handlescroll }) {
           <div className="res-nav-links res-link-menu">
             <span className="scrolllink" onClick={handleservicesScrolltoup}>Services</span>
           </div>
+          <span className="res-nav-links res-link-menu" onClick={handleResumeScrolltoup}>
+            <div className="scrolllink">Resume</div>
+          </span>
           <div className="res-nav-links res-link-menu">
             <span className="scrolllink" onClick={handleAboutmeScrolltoup}>About Us</span>
           </div>

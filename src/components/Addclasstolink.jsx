@@ -10,24 +10,23 @@ export const Addclasstolink = () => {
       // console.log(elements);
       elements.forEach((item) => item.classList.remove("Currentactive"));
       if (yloc > 700 && yloc < 1700) {
-        // home
+        // work
         elements[0].classList.add("Currentactive");
       } else if (yloc > 1700 && yloc < 2800) {
-        // work
+        // services
         elements[1].classList.add("Currentactive");
       } else if (yloc > 2800 && yloc < 3500) {
-        // services
-        // elements[].classList.add("Currentactive")
-      } else if (yloc > 3500 && yloc < 3900) {
         // resume
+        elements[2].classList.add("Currentactive")
+      } else if (yloc > 3500 && yloc < 3900) {
         // elements[].classList.add("Currentactive")
       } else if (yloc > 3900 && yloc < 4500) {
         // aboutme
 
-        elements[2].classList.add("Currentactive");
-      } else if (yloc > 4500 && yloc < 5000) {
-        // contact
         elements[3].classList.add("Currentactive");
+      } else if (yloc > 4500 && yloc < 5100) {
+        // contact
+        elements[4].classList.add("Currentactive");
       }
     }
   };

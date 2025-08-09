@@ -1,9 +1,9 @@
 import React from "react";
 import mypfp from "../images/hero.jpg";
-function Aboutme({refloc}) {
-  let lable = ["Web App", "Product Design", "Interactive Prototype", "Backend Dev","Database","Website"];
-let data=new Date().getFullYear();
-let myexpyear=data-2023
+function Aboutme({ refloc }) {
+  let lable = ["Web App", "Product Design", "Interactive Prototype", "Backend Dev", "Database", "Website"];
+  let data = new Date().getFullYear();
+  let myexpyear = data - 2023
   return (
     <div className="aboutme-container scrolltotop" ref={refloc}>
       <p className="aboutme-aboutme-title">About Me</p>
@@ -33,7 +33,7 @@ let myexpyear=data-2023
           </div>
           <div className="aboutme-label-container">
             {lable.map((item, index) => {
-              return <Labledivs item={item} key={index}/>;
+              return <Labledivs item={item} key={index} />;
             })}
           </div>
         </div>

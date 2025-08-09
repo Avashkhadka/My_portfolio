@@ -16,14 +16,14 @@ import { Addclasstolink } from "./components/Addclasstolink";
 
 
 function Homepage() {
-    const [hometp, handleHomeScrolltoup, workstp, handleWorkScrolltoup, aboutmetp, handleAboutmeScrolltoup, contacttp, handleContactScrolltoup, Servicestp, handleservicesScrolltoup, Resumetp,] = Getscrolls();
+    const [hometp, handleHomeScrolltoup, workstp, handleWorkScrolltoup, aboutmetp, handleAboutmeScrolltoup, contacttp, handleContactScrolltoup, Servicestp, handleservicesScrolltoup, Resumetp, handleResumeScrolltoup] = Getscrolls();
     const Scrollbackref = useRef()
 
     return (
         <React.Fragment>
             <Addclasstolink/>
             <BacktoTop Scrollbackref={Scrollbackref} />
-            <Navbar handlescroll={{ handleHomeScrolltoup, handleWorkScrolltoup, handleAboutmeScrolltoup, handleContactScrolltoup, handleservicesScrolltoup }} />
+            <Navbar handlescroll={{ handleHomeScrolltoup, handleWorkScrolltoup, handleAboutmeScrolltoup, handleContactScrolltoup, handleservicesScrolltoup, handleResumeScrolltoup}} />
             <Herosec refloc={hometp} />
             <Clients />
             <Recentworks refloc={workstp} />
