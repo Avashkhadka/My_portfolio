@@ -1190,7 +1190,7 @@ img {
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
-
+  margin-top: 3rem;
 }
 
 .servicesItem:hover .serv-icon,
@@ -1322,7 +1322,8 @@ img {
 
 .ResumecardContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
   gap: 2rem;
   height: 45rem;
   overflow: auto;
@@ -1334,7 +1335,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
 }
 
 .ResumeCard p:first-child {
@@ -1348,7 +1349,7 @@ img {
   font-weight: 900;
 }
 
-.ResumeCard p:nth-child(3) {
+.ResumeCard ul {
   font-size: 1.6rem;
   font-weight: 600;
   margin-left: 2rem;
@@ -1361,6 +1362,79 @@ img {
   font-size: 2rem;
 }
 
-.ResumeCard p:nth-child(4){
+.ResumeCard p:nth-child(4) {
   font-size: 1.6rem;
+}
+
+.resume-skillcomp {
+  /* grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  height: auto;
+  overflow: visible;
+  justify-content: center;
+}
+
+.skillcard-content svg {
+  transition: 0.2s ease-in-out;
+}
+
+.skillcard-content:hover svg {
+  fill: var(--secondarytextcolor);
+}
+
+.SkillCard-Hover_name {
+  color: var(--secondarybg);
+  background-color: white;
+  border-radius: 0.8rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  transition: 0.1s ease-in-out;
+  opacity: 1;
+  position: absolute;
+  top: -30px;
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.skillcard-content:hover .SkillCard-Hover_name {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+.skillcard-content {
+  position: relative;
+  background-color: var(--secondarybg);
+  padding: 3.0rem 2.5rem;
+  width: 17rem;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.resAboutMeContainerHeading {
+  color: var(--secondarytextcolor);
+}
+
+.Res-AboutmeContainer {
+  font-size: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+  height: 35rem;
+  overflow: auto;
+  font-weight: 400;
+}
+
+@media (width<65rem) {
+  .skillcard-content {
+    width: 13rem;
+    /* height: 10rem; */
+  }
 }
