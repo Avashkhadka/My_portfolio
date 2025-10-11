@@ -10,7 +10,7 @@ function PageNotFound() {
                 404
             </p>
             <p className="text-4xl font-medium text-gray-300 mb-5">Not Found</p>
-            <p className="font-medium text-2xl mb-8 text-gray-300">
+            <p className="font-medium text-center text-2xl mb-8 text-gray-300">
                 The resource requested could not be found on this server!
             </p>
             <button

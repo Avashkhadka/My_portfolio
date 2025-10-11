@@ -1,0 +1,52 @@
+{
+    "posts": [
+        {
+            "id": "1",
+            "title": "Wi-Fi Deauthentication Attack — Explanation, Steps, and Defenses",
+            "img": "wifi-deauth.png",
+            "keyterms": ["wifi", "deauth", "attack"],
+            "tag": "Technology",
+            "slug": "wifi-deauth-attack",
+            "classHeight": "35rem",
+            "published_at": "10/01/2025",
+            "reading_time_minutes": "6",
+            "subtitle": "A complete breakdown of how Wi-Fi deauthentication attacks work, the technical steps behind executing one, and the most effective methods individuals and organizations can apply to defend against them in real-world scenarios."
+        },
+        {
+            "id": "2",
+            "title": "Top 5 JavaScript Tricks Every Developer Should Know",
+            "img": "five-js-tricks.png",
+            "keyterms": ["javascript", "frontend", "tricks"],
+            "tag": "Technology",
+            "slug": "top-5-javascript-tricks",
+            "classHeight": "20rem",
+            "published_at": "09/15/2025",
+            "reading_time_minutes": "5",
+            "subtitle": "From cleaner syntax shortcuts to advanced array manipulations, this article covers five powerful yet simple JavaScript tricks that can help developers write more efficient, maintainable, and professional-quality code."
+        },
+        {
+            "id": "3",
+            "title": "Exploring Nepal’s Hidden Waterfalls",
+            "img": "exploring-nepal-waterfalls.png",
+            "keyterms": ["travel", "nepal", "nature"],
+            "tag": "Travel",
+            "slug": "exploring-nepal-hidden-waterfalls",
+            "classHeight": "20rem",
+            "published_at": "08/22/2024",
+            "reading_time_minutes": "4",
+            "subtitle": "Discover the untouched beauty of Nepal’s hidden waterfalls tucked away in remote valleys and lush forests, offering serene escapes, breathtaking scenery, and unique travel experiences for adventurers and nature lovers alike."
+        },
+        {
+            "id": "4",
+            "title": "Beginner’s Guide to Machine Learning",
+            "img": "guide-to-machine-learning.png",
+            "keyterms": ["AI", "machine learning", "data"],
+            "tag": "Technology",
+            "slug": "beginners-guide-to-machine-learning",
+            "classHeight": "20rem",
+            "published_at": "07/10/2024",
+            "reading_time_minutes": "8",
+            "subtitle": "An easy-to-understand introduction to machine learning concepts, exploring supervised and unsupervised learning with practical examples so beginners can quickly grasp how AI models learn from data and solve problems."
+        }
+    ]
+}

@@ -158,7 +158,7 @@ export const SkillsComp = () => {
 };
 
 export const AboutmeComp = () => {
-    let content = `I’m a creative front-end developer and visual designer with a deep interest in technology and user-centered design. Currently studying BSc(Hons) IT, I’m driven by a desire to build sleek, responsive interfaces that are both functional and engaging. With a growing skill set and a curiosity for innovation, I strive to bridge aesthetics and usability in every project I take on.`;
+    let content = `I’m a creative front-end developer and visual designer with a deep interest in technology and user-centered design. Currently studying Bachelors in Computer Application (BCA), I’m driven by a desire to build sleek, responsive interfaces that are both functional and engaging. With a growing skill set and a curiosity for innovation, I strive to bridge aesthetics and usability in every project I take on.`;
     let date = new Date().getFullYear();
     let myData = [
         { Name: "Avash khadka" },

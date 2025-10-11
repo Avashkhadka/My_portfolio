@@ -14,7 +14,7 @@ export const works = [
     },
     {
         header: "💪 Efficient cooperative website, expertly built.",
-        title: "Diyo Saving and Credit Cooperative Pvt. Ltd. | Empowering Financial Growth Together",
+        title: "Diyo Saving and Credit Cooperative Ltd. | Empowering Financial Growth Together",
         link: "https://diyosaving.com.np/",
         image: diyo,
         lgfirst: "#510b0b",

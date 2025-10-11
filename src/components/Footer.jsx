@@ -70,7 +70,7 @@ function Footer() {
 
     const [temp, settemp] = useState();
     const getTemp = async () => {
-        let apikey = import.meta.env.VITE_WEATHER_API;
+        // let apikey = import.meta.env.VITE_WEATHER_API;
         try {
             let response = await fetch(
                 `https://api.weatherapi.com/v1/forecast.json?key=${apikey}&q=kathmandu&days=1&aqi=no&alerts=no`
