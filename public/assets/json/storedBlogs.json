@@ -7,10 +7,23 @@
             "keyterms": ["wifi", "deauth", "attack"],
             "tag": "Technology",
             "slug": "wifi-deauth-attack",
-            "classHeight": "35rem",
+            "classHeight": "20rem",
             "published_at": "10/01/2025",
             "reading_time_minutes": "6",
-            "subtitle": "A complete breakdown of how Wi-Fi deauthentication attacks work, the technical steps behind executing one, and the most effective methods individuals and organizations can apply to defend against them in real-world scenarios."
+            "subtitle": "A complete breakdown of how Wi-Fi deauthentication attacks work, the technical steps behind executing one, and the most effective methods individuals and organizations can apply to defend against them in real-world scenarios.",
+            "content": {
+                "introduction": "A deauthentication (deauth) attack abuses unauthenticated Wi-Fi management frames to force clients off an access point (AP). Because many Wi-Fi networks don't authenticate management frames, attackers can spoof AP addresses and send deauth or disassociation frames, causing service disruption and opening opportunities for follow-on attacks (e.g., rogue APs or captive portals).",
+                "wit": {
+                    "header": "Wi-Fi Deauthentication Attack",
+                    "def": "A deauth attack takes advantage of weaknesses in Wi-Fi networks. By sending fake 'disconnect' signals, an attacker can:",
+                    "points": [
+                        "Force devices to disconnect from a Wi-Fi network.",
+                        "Interrupt internet access for everyone.",
+                        "Trick users into connecting to a fake Wi-Fi network (rogue hotspot)."
+                    ],
+                    "ending": "Think of it like someone standing between you and your router, constantly saying: 'Hey, disconnect now!' — and your device listens."
+                }
+            }
         },
         {
             "id": "2",
@@ -22,7 +35,8 @@
             "classHeight": "20rem",
             "published_at": "09/15/2025",
             "reading_time_minutes": "5",
-            "subtitle": "From cleaner syntax shortcuts to advanced array manipulations, this article covers five powerful yet simple JavaScript tricks that can help developers write more efficient, maintainable, and professional-quality code."
+            "subtitle": "From cleaner syntax shortcuts to advanced array manipulations, this article covers five powerful yet simple JavaScript tricks that can help developers write more efficient, maintainable, and professional-quality code.",
+            "content": [{}]
         },
         {
             "id": "3",
@@ -34,7 +48,8 @@
             "classHeight": "20rem",
             "published_at": "08/22/2024",
             "reading_time_minutes": "4",
-            "subtitle": "Discover the untouched beauty of Nepal’s hidden waterfalls tucked away in remote valleys and lush forests, offering serene escapes, breathtaking scenery, and unique travel experiences for adventurers and nature lovers alike."
+            "subtitle": "Discover the untouched beauty of Nepal’s hidden waterfalls tucked away in remote valleys and lush forests, offering serene escapes, breathtaking scenery, and unique travel experiences for adventurers and nature lovers alike.",
+            "content": [{}]
         },
         {
             "id": "4",
@@ -46,7 +61,8 @@
             "classHeight": "20rem",
             "published_at": "07/10/2024",
             "reading_time_minutes": "8",
-            "subtitle": "An easy-to-understand introduction to machine learning concepts, exploring supervised and unsupervised learning with practical examples so beginners can quickly grasp how AI models learn from data and solve problems."
+            "subtitle": "An easy-to-understand introduction to machine learning concepts, exploring supervised and unsupervised learning with practical examples so beginners can quickly grasp how AI models learn from data and solve problems.",
+            "content": [{}]
         }
     ]
 }
