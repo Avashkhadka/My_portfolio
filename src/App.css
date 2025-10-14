@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
 @import "tailwindcss";
 
-
-
 @keyframes fade-in-up {
     from {
         opacity: 0;
@@ -16,15 +14,15 @@
 }
 
 .animate-fade-in-up {
-    animation: fade-in-up 0.8s ease-in-out;
+    animation: fade-in-up 0.5s ease-in-out;
 }
 
 @keyframes float {
     0%,
     100% {
-        transform: translateY(-30px);
+        transform: translateY(-10px);
     }
-    50%{
+    50% {
         transform: translateY(0);
     }
 }
@@ -32,9 +30,6 @@
 .animate-float {
     animation: float 5s ease-in-out infinite;
 }
-
-
-
 
 :root {
     --primaryBg: #1f242d;
@@ -142,7 +137,7 @@ nav {
     align-items: center;
     margin-left: 1.5rem;
     justify-content: space-between;
-    width: 88%;
+    /* width: 82%; */
 }
 
 .navlink {
@@ -258,7 +253,8 @@ nav {
     gap: 1.5rem;
 }
 
-img {
+.heroinner img,
+.aboutme-image-container img, .pimage img {
     max-width: 45rem;
 }
 

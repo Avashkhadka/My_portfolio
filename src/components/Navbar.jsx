@@ -66,52 +66,49 @@ export default function Navbar() {
                                 Avash Khadka
                             </div>
                         </span>
-
-                        <div className="navlinks">
-                            <div className="navlinktype">
-                                <span className="scrolllink ">
-                                    <div
-                                        className="navlink "
-                                        onClick={(e) => {
-                                            e.preventDefault();
-                                            navigate("/blog");
-                                            setTimeout(() => {
-                                                window.scroll({
-                                                    top: 0,
-                                                    behavior: "smooth",
-                                                });
-                                            }, 100);
-                                        }}
-                                    >
-                                        Blogs
-                                    </div>
-                                </span>
-                                {navItems.map((item, href) => {
-                                    return (
-                                        <span
-                                            key={href}
-                                            className="scrolllink "
+                    </div>
+                    <div className="navlinks ml-auto mr-3">
+                        <div className="navlinktype">
+                            <span className="scrolllink ">
+                                <div
+                                    className="navlink "
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        navigate("/blog");
+                                        setTimeout(() => {
+                                            window.scroll({
+                                                top: 0,
+                                                behavior: "smooth",
+                                            });
+                                        }, 100);
+                                    }}
+                                >
+                                    Blogs
+                                </div>
+                            </span>
+                            {navItems.map((item, href) => {
+                                return (
+                                    <span key={href} className="scrolllink ">
+                                        <div
+                                            className="navlink "
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                useScrollToSection(
+                                                    item.href,
+                                                    navigate,
+                                                    closeMobileMenu,
+                                                    setNavReqFromOut
+                                                );
+                                                setnavMenuToggle(false);
+                                            }}
                                         >
-                                            <div
-                                                className="navlink "
-                                                onClick={(e) => {
-                                                    e.preventDefault();
-                                                    useScrollToSection(
-                                                        item.href,
-                                                        navigate,
-                                                        closeMobileMenu,
-                                                        setNavReqFromOut
-                                                    );
-                                                    setnavMenuToggle(false);
-                                                }}
-                                            >
-                                                {item.label}
-                                            </div>
-                                        </span>
-                                    );
-                                })}
+                                            {item.label}
+                                        </div>
+                                    </span>
+                                );
+                            })}
 
-                                {/* <span className="scrolllink ">
+                            {/* <span className="scrolllink ">
                                     <div className="navlink ">Works</div>
                                 </span>
                                 <span className="scrolllink">
@@ -126,7 +123,6 @@ export default function Navbar() {
                                 <span className="scrolllink">
                                     <div className="navlink">Contact</div>
                                 </span> */}
-                            </div>
                         </div>
                     </div>
                     <div className="nav-book">
