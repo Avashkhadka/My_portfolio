@@ -1,38 +1,35 @@
-
 import React from "react";
-import { Link } from "react-router";
 
-function BlogCard({ item }) {
+function BlogCard({ content }) {
+    console.log(content);
     return (
-        <Link
-            to={`/blog/${item.slug}`}
-            className="group cursor-pointer max-w-300 border rounded-2xl  md:h-[41rem] w-[35rem] md:w-auto overflow-hidden justify-between border-[#333333] transition-all duration-300 hover:-translate-y-2"
-        >
-            <div className="overflow-hidden flex justify-center h-[20rem] min-w-80">
-                <img
-                    src={`assets/images/${item.img}`}
-                    alt=""
-                    className={"object-cover"}
-                    style={{
-                        height:item.classHeight,
+        <div>
+            <h2 className="text-[24px] mb-3 sm:mb-0 sm:text-[32px] opacity-90 md:opacity-100 mt-10 font-medium text-gray-200 ">
+                Introduction
+            </h2>
+            <p className="text-[16px] text-gray-300 opacity-70 md:opacity-100">{content.introduction}</p>
 
-                    }}
-                />
-            </div>
-            <div className="p-[4%]  md:px-15 lg:px-4 ]">
-                <div className="text-[20px] font-medium transition-all duration-400 group-hover:text-[#5a52ff]">
-                    {item.title}
+            {content.wit ? (
+                <div>
+                    <h2 className="text-[24px] mb-3 sm:mb-0 sm:text-[32px] opacity-90 md:opacity-100 mt-10 font-medium text-gray-200 ">
+                        What is {content.wit.header}
+                    </h2>
+                    <p className="text-[16px] text-gray-300 opacity-70 md:opacity-100  flex flex-col gap-2">
+                        {content.wit.def}
+                        {content.wit.points?
+                            <ul className="pl-15 list-disc">
+                                {content.wit.points.map((item)=>{
+                                    return <li>{item}</li>
+                                })}
+                            </ul>
+                        
+                        :null}
+                        
+                        {content.wit.ending?content.wit.ending:null}
+                    </p>
                 </div>
-                <div className="flex items-center gap-3 text-[#9ca3af] my-6 text-[14px]">
-                    <p>{item.published_at}</p>
-                    <span className="bg-[#9ca3af] w-1.5 h-1.5 rounded-full "></span>
-                    <p>{item.reading_time_minutes} minute read</p>
-                </div>
-                <div className="text-2xl text-gray-300">
-                    {item.subtitle.slice(0, 60)}...
-                </div>
-            </div>
-        </Link>
+            ) : null}
+        </div>
     );
 }
 

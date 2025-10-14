@@ -16,9 +16,14 @@ export const useIntersectionObserver = () => {
             },
             { threshold: 0.1 }
         );
-        document.querySelectorAll("[id]").forEach((el) => {
-            observer.observe(el);
-        });
+        const observeAllIds = () => {
+            document.querySelectorAll("[id]").forEach((el) => {
+                if (!hasAnimated[el.id]) observer.observe(el);
+            });
+        };
+
+        observeAllIds();
+
         return () => {
             observer.disconnect();
         };
