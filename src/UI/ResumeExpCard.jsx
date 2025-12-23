@@ -10,8 +10,8 @@ function ResumeExpCard({ data, hasAnimated }) {
             id={`res${data.post.length}`}
         >
             <p>
-                {data.startTime}-
-                {data.endTime === curryear ? "Current" : data.endTime}
+                {data.startTime}- 
+                {data.current === true ? "Current" : data.endTime}
             </p>
             <p>{data.post}</p>
 

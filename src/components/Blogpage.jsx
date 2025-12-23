@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router";
 import { useIntersectionObserver } from "../Hooks/useIntersectionObserver";
 import { ArrowLeft, BookOpen, Calendar } from "lucide-react";
 import BlogCard from "../UI/BlogCard";
+import { useScrollToBlogSection } from "../Hooks/useScrollToSection";
 
 function Blogpage() {
     const navigate = useNavigate();
@@ -10,6 +11,7 @@ function Blogpage() {
     const hasAnimated = useIntersectionObserver();
     const [fetchedBlogs, setFetchedBlogs] = useState([]);
     const [blog, setBlog] = useState();
+    const [tobContext, setTobContext] = useState([]);
     const fetchBlogs = async () => {
         try {
             const result = await fetch("/assets/json/storedBlogs.json");
@@ -59,11 +61,47 @@ function Blogpage() {
                             </p>
                         </span>
                     </div>
-                    <p className="text-5xl sm:text-6xl !leading-tight font-bold text-gray-200 mt-8 text-center">
-                        {blog.title}
-                    </p>
+                    <div className="md:grid">
+                        <div className="row-start-1 col-start-2 md:pr-8">
+                            <p className="text-5xl sm:text-6xl !leading-tight font-bold text-gray-200 mt-8 text-center">
+                                {blog.title}
+                            </p>
 
-                    {blog ? <BlogCard content={blog.content} /> : null}
+                            {blog ? (
+                                <BlogCard
+                                    content={blog.content}
+                                    setTobContext={setTobContext}
+                                />
+                            ) : null}
+                        </div>
+                        <div className="mt-10 row-start-1 col-start-3 md:max-w-90 ">
+                            <div className="sticky top-40 border  bg-linear-to-r from-[#222222]  to-[#1a1a1a60] rounded-[10px] border-[#333333] p-10">
+                                <p className="text-3xl font-bold text-gray-200">
+                                    Table of context
+                                </p>
+                                <div className="w-full mt-3 h-[1px] bg-[#333333]"></div>
+                                {tobContext &&
+                                    tobContext.map((item) => {
+                                        return (
+                                            <p
+                                                key={item.href}
+                                                className="text-2xl text-gray-300 text-wrap py-2 hover:underline cursor-pointer"
+                                                onClick={() => {
+                                                    useScrollToBlogSection(
+                                                        item.href
+                                                    );
+                                                }}
+                                            >
+                                                {item.name.slice(
+                                                    2,
+                                                    item.name.length
+                                                )}
+                                            </p>
+                                        );
+                                    })}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             ) : (
                 <div className="min-h-screen flex justify-center text-center items-center text-5xl"></div>

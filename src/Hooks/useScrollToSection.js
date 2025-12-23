@@ -15,7 +15,22 @@ export const useScrollToSection = (
         });
     } else {
         navigate("/");
-        setNavReqFromOut(href)
+        setNavReqFromOut(href);
     }
     closeMobileMenu();
+};
+
+export const useScrollToBlogSection = (href) => {
+
+    const element = document.getElementById(href);
+    if (element) {
+
+
+        const navHeight = -180;
+        const elementPosition = element.offsetTop + navHeight;
+        window.scrollTo({
+            top: elementPosition,
+            behavior: "smooth",
+        });
+    }
 };

@@ -6,6 +6,7 @@ import RouteMain from "./Components/RouteMain";
 import Home from "./Components/Home";
 import BlogContainer from "./Components/BlogContainer";
 import Blogpage from "./Components/Blogpage";
+
 function App() {
     // const router = createBrowserRouter(createRoutesFromElements(
     //   <>
@@ -15,7 +16,6 @@ function App() {
     //     <Route path="*" element={<Homepage />} />
     //   </>
     // ))
-    
 
     return (
         <>
@@ -24,6 +24,7 @@ function App() {
                 <Route element={<RouteMain />}>
                     <Route path="/" element={<Home />} />
                     <Route path="/blog" element={<BlogContainer />} />
+
                     <Route path="/blog/:slug" element={<Blogpage />} />
                 </Route>
                 <Route path="*" element={<PageNotFound />} />

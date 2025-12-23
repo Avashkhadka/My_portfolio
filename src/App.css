@@ -254,7 +254,8 @@ nav {
 }
 
 .heroinner img,
-.aboutme-image-container img, .pimage img {
+.aboutme-image-container img,
+.pimage img {
     max-width: 45rem;
 }
 
@@ -499,28 +500,29 @@ nav {
     transform: translate(0px, 5px);
 }
 
-.rcard-img-1 {
-    width: 38rem;
-    object-fit: contain;
-    position: relative;
-    top: -13px;
-    left: -5px;
-    transition: 0.3s;
-}
-
-.rcard-img-2 {
+.r-card-img {
     width: 39rem;
     object-fit: contain;
     position: relative;
-    top: 29px;
-    left: -4px;
     transition: 0.3s;
 }
 
-.Rcardcontainer:hover .rcard-img-1,
-.Rcardcontainer:hover .rcard-img-2 {
-    transform: scale(1.07);
+.rcard-img-1 {
+    top: -13px;
+    left: -5px;
 }
+
+.rcard-img-2 {
+    top: 29px;
+    left: -4px;
+}
+
+.rcard-img-3 {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
 
 @media (width<=50rem) {
     .Rcardcontainer {
@@ -546,11 +548,7 @@ nav {
         height: 25rem;
     }
 
-    .rcard-img-1 {
-        width: 36rem;
-        left: -53px;
-        top: -27px;
-    }
+
 
     .rcard-header {
         text-align: center;

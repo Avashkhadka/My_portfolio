@@ -17,16 +17,27 @@ export const ResumeDataContainer = {
         content: ` I have a strong background in front-end development with HTML, CSS, JavaScript, and React. I’ve built projects like a portfolio site and a QR-based house locator, and during a 2-month internship at Onedotsolution, I co-developed applications that improved workflows. My work reflects passion for digital experiences, continuous learning, and solid design and technical skills.`,
         data: [
             {
-                startTime: 2024,
-                endTime: 2024,
+                startTime: "Dec 5th ",
+                endTime: " 6th 2025",
+                current: false,
+                post: "Participant — DevFest Kathmandu 2025",
+                institution: "Google Developer Groups Kathmandu",
+                Discription:
+                    "Participated in DevFest Kathmandu 2025 held at DAV College and TechSpire College. Engaged in sessions on AI, Android, Cloud, Flutter, Firebase, DevOps, and Gemini. Attended expert talks, hands-on workshops, and networking events, strengthening my understanding of modern Google-backed technologies and responsible AI.",
+            },
+            {
+                startTime: "2024 ",
+                endTime: " 2024",
+                current: false,
                 post: "Fullstack Developer",
                 institution: "Onedotsolution",
                 Discription: `Developed a "Student Management" system for a client with a friend, using HTML, CSS, JavaScript, PHP, and MySQL to manage
                             student data, attendance, and performance. This project strengthened my end-to-end development and teamwork skills.`,
             },
             {
-                startTime: 2024,
-                endTime: 2024,
+                startTime: "2024 ",
+                endTime: " 2024",
+                current: false,
                 post: "Fullstack Developer",
                 institution: "Diyo Saving and Credit Cooperative Pvt. Ltd",
                 Discription: `Developed a website for Diyo Saving and Credit Cooperative Pvt. Ltd., improving their online presence and user experience. Utilized
@@ -36,6 +47,7 @@ export const ResumeDataContainer = {
             {
                 startTime: " July 25th -",
                 endTime: " 27th 2025 ",
+                current: false,
                 post: "Hackathon Organizer",
                 institution: "DAV Codefest 48-Hour Hackathon, DAV College",
                 Discription:
@@ -44,6 +56,7 @@ export const ResumeDataContainer = {
             {
                 startTime: "July 5th ",
                 endTime: " 2025 ",
+                current: false,
                 post: "Technical Team Member – Esports Event",
                 institution: "PUBG Tournament, DAV College",
                 Discription: `Served as a key member of the technical team for a PUBG tournament with 50+ participants and a prize pool of NPR 50,000. Created match rooms, streamed games live, acted as a spectator, and updated points in real-time—a highly sensitive and critical responsibility. Before the tournament, managed team communications, collected deposits, finalized match schedules, and assisted with organizing the event structure. Helped maintain fairness, transparency, and a smooth flow throughout the tournament.
@@ -53,6 +66,7 @@ export const ResumeDataContainer = {
             {
                 startTime: "Jan 13th ",
                 endTime: " 15th 2025",
+                current: false,
                 post: "Technical & Event Organizer",
                 institution: "BCA Futsal Cup, DAV College",
                 Discription:

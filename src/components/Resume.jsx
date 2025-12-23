@@ -168,7 +168,6 @@ export const AboutmeComp = () => {
         { Phone: "(+977) 9841286400" },
         { Email: "avash2063@gmail.com" },
         { Gender: "Male" },
-        { status: "Single" },
         { Nationality: "Nepali" },
         { FullTime: "Available" },
         { Language: "English, Nepali, Hindi" },

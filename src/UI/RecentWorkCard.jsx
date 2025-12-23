@@ -19,7 +19,7 @@ function Rcardcomp(props) {
     return (
         <div
             id={`rw${props.ind}`}
-            className={`Rcardcontainer transition-all duration-500 ${
+            className={`group  Rcardcontainer transition-all duration-500 ${
                 hasAnimated[`rw${props.ind}`]
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-10"
@@ -45,7 +45,7 @@ function Rcardcomp(props) {
                 <img
                     src={props.data.image}
                     alt=""
-                    className={`rcard-img-${props.ind}`}
+                    className={`r-card-img rcard-img-${props.ind} group-hover:scale-[1.07]`}
                 />
             </div>
         </div>

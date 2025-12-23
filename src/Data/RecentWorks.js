@@ -1,5 +1,6 @@
 import diyo from "../assets/images/DiyoPcView.jpg";
 import triv from "../assets/images/TRIV.png";
+import blog from "../assets/images/blog.png";
 
 export const works = [
     {
@@ -22,14 +23,14 @@ export const works = [
         lgimgfirst: "#B94E4E",
         lgimgsec: "#621515",
     },
-    // {
-    //   header:"🖊 Advanced text manipulation website.",
-    //   title:"Ultimate Text Utilities for Efficient Content Processing Edit, and Enhance Your Writing with Ease",
-    //   link:"https://avashkhadka.com.np/react/textutils/",
-    //   image:privateimg,
-    //   lgfirst:"#522d05",
-    //   lgsec:"#020809 ",
-    //   lgimgfirst:"#A96114",
-    //   lgimgsec:"#613607",
-    // },
+    {
+        header: "📝 Insightful blog and creative writings.",
+        title: "Explore My Blog — Thoughts, Tutorials, and Tech Insights from My Developer Journey",
+        link: "https://avashkhadka.com.np/#/blog",
+        image: blog,
+        lgfirst: "#522d05",
+        lgsec: "#020809",
+        lgimgfirst: "#A96114",
+        lgimgsec: "#613607",
+    },
 ];

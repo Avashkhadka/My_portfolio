@@ -1,7 +1,92 @@
 {
     "posts": [
         {
-            "id": "1",
+            "id": "4",
+            "title": "Discover Kapuche: Trek to the World's Lowest Glacier Lake",
+            "img": "kapuche-glacier-lake.jpg",
+            "keyterms": ["Nepal", "trekking", "glacier lake", "Kapuche", "Sikles", "Adventure"],
+            "tag": "Travel",
+            "slug": "discover-kapuche-trek-lowest-glacier-lake",
+            "classHeight": "20rem",
+            "published_at": "12/23/2025",
+            "reading_time_minutes": "10",
+            "subtitle": "Explore Kapuche Glacier Lake in the Annapurna region — the world's lowest-altitude glacier lake — and experience untouched Himalayan landscapes along with rich Gurung culture.",
+            "content": {
+                "introduction": "Kapuche Glacier Lake is a newly emerging trekking destination located in the Annapurna region of Nepal. Situated near the traditional Gurung village of Sikles in the Kaski district, this pristine alpine lake is renowned as the world's lowest-altitude glacier lake. Surrounded by dramatic Himalayan peaks such as Annapurna II, Annapurna IV, Lamjung Himal, and Dhaulagiri, Kapuche offers travelers a rare combination of glacial beauty, cultural richness, and peaceful trails away from commercial trekking routes.",
+                "wit": {
+                    "header": "Kapuche Glacier Lake Overview",
+                    "def": "Kapuche Glacier Lake lies at an altitude of approximately 2,546 meters above sea level within the Annapurna Conservation Area of Nepal.",
+                    "points": [
+                        "Altitude: Approximately 2,546 meters above sea level, making it the world's lowest glacier lake.",
+                        "Location: Sikles, Kaski District, Gandaki Province, Nepal.",
+                        "Name Origin: The name 'Kapuche' comes from local terms meaning snow melt on flat land.",
+                        "Lake Features: Crystal-clear turquoise water fed directly by glacial ice.",
+                        "Environment: Surrounded by towering Himalayan peaks and untouched alpine terrain."
+                    ],
+                    "ending": "These unique geographical features make Kapuche Glacier Lake one of Nepal's most fascinating and accessible glacial destinations."
+                },
+                "works": {
+                    "header": "🛣️ How to Reach Kapuche Glacier Lake",
+                    "def": "Reaching Kapuche Glacier Lake involves a combination of road travel and trekking:",
+                    "points": [
+                        "Pokhara: Begin your journey from Pokhara, the main tourism hub of western Nepal.",
+                        "Drive to Sikles: Travel by jeep or four-wheel drive vehicle. The road includes a mix of well-developed sections and off-road terrain.",
+                        "Sikles to Hugu Goth: Trek for about 6-7 hours through forested trails, waterfalls, and mountain paths.",
+                        "Hugu Goth to Kapuche Lake: A 2-3 hour hike leading to the glacier lake.",
+                        "Return Journey: Retrace the same route back to Sikles and Pokhara."
+                    ],
+                    "ending": "The journey itself is an adventure, offering scenic landscapes, forest trails, and panoramic mountain views."
+                },
+                "protect_type": {
+                    "header": "🌄 Places to Visit Along the Trek",
+                    "points": [
+                        "Kapuche Glacier Lake: A serene glacier-fed lake offering breathtaking alpine scenery.",
+                        "Sikles Village: A culturally rich Gurung settlement known for traditional stone houses and warm hospitality.",
+                        "Forest Trails & Waterfalls: Dense forests, rhododendron paths, and scenic waterfalls along the trekking route.",
+                        "Hugu Goth & Shepherd Outposts: Remote grazing grounds used by local shepherds.",
+                        "Kori Danda (कोरी डाँडा): A scenic hill offering panoramic views of Annapurna, Lamjung Himal, Machhapuchhre, and Manaslu."
+                    ],
+                    "ending": "Each location adds its own charm, making the trek diverse and deeply rewarding."
+                },
+                "tools": {
+                    "header": "🎒 Activities & Cultural Experiences",
+                    "def": "The Kapuche trek offers more than just scenic views:",
+                    "points": [
+                        "Trekking through untouched Himalayan trails.",
+                        "Staying in local homestays and experiencing Gurung culture.",
+                        "Photography of alpine landscapes, villages, and mountain peaks.",
+                        "Bird watching and observing local wildlife.",
+                        "Camping and stargazing near high-altitude meadows."
+                    ],
+                    "ending": "These experiences make Kapuche an ideal destination for travelers seeking both adventure and cultural immersion."
+                },
+                "faq": [
+                    {
+                        "id": "1",
+                        "que": "Is a permit required for the Kapuche trek?",
+                        "ans": "Yes. Trekkers must obtain an Annapurna Conservation Area Permit (ACAP) and a TIMS card before starting the trek."
+                    },
+                    {
+                        "id": "2",
+                        "que": "Is the Kapuche trek suitable for beginners?",
+                        "ans": "Yes. The trek is considered easy to moderate and is suitable for beginners with basic fitness."
+                    },
+                    {
+                        "id": "3",
+                        "que": "What is the best time to visit Kapuche Glacier Lake?",
+                        "ans": "Spring (March-May) and autumn (September-November) are the best seasons due to clear weather and stable trail conditions."
+                    },
+                    {
+                        "id": "4",
+                        "que": "How many days are required for the trek?",
+                        "ans": "The trek typically takes 4-5 days, including travel from and back to Pokhara."
+                    }
+                ],
+                "conclusion": "Kapuche Glacier Lake is a hidden gem of Nepal's Annapurna region. Its unique status as the world's lowest-altitude glacier lake, combined with scenic trails, cultural richness, and peaceful surroundings, makes it a perfect destination for adventurers seeking something beyond mainstream trekking routes. Whether you are a beginner trekker or a nature enthusiast, Kapuche promises an unforgettable Himalayan experience."
+            }
+        },
+        {
+            "id": "3",
             "title": "Wi-Fi Deauthentication Attack — Explanation, Steps, and Defenses",
             "img": "wifi-deauth.png",
             "keyterms": ["wifi", "deauth", "attack"],
@@ -14,45 +99,68 @@
             "content": {
                 "introduction": "A deauthentication (deauth) attack abuses unauthenticated Wi-Fi management frames to force clients off an access point (AP). Because many Wi-Fi networks don't authenticate management frames, attackers can spoof AP addresses and send deauth or disassociation frames, causing service disruption and opening opportunities for follow-on attacks (e.g., rogue APs or captive portals).",
                 "wit": {
-                    "header": "Wi-Fi Deauthentication Attack",
+                    "header": " Wi-Fi Deauthentication Attack ",
                     "def": "A deauth attack takes advantage of weaknesses in Wi-Fi networks. By sending fake 'disconnect' signals, an attacker can:",
-                    "points": [
-                        "Force devices to disconnect from a Wi-Fi network.",
-                        "Interrupt internet access for everyone.",
-                        "Trick users into connecting to a fake Wi-Fi network (rogue hotspot)."
-                    ],
+                    "points": ["Force devices to disconnect from a Wi-Fi network.", "Interrupt internet access for everyone.", "Trick users into connecting to a fake Wi-Fi network (rogue hotspot)."],
                     "ending": "Think of it like someone standing between you and your router, constantly saying: 'Hey, disconnect now!' — and your device listens."
-                }
+                },
+
+                "works": {
+                    "header": "🛠️How the Attack Works (Simplified)",
+                    "def": "",
+                    "points": [
+                        "Wi-Fi uses management signals (frames) that usually aren't secured.",
+                        "An attacker forges these signals, pretending to be the router.",
+                        "Your device believes it's real and disconnects.",
+                        "This can be repeated endlessly, knocking you offline."
+                    ],
+                    "ending": ""
+                },
+                "protect_type": {
+                    "header": "🛡️How to Protect Yourself ",
+                    "points": [
+                        "Enable PMF (Protected Management Frames) - Many modern routers and devices support this.",
+                        "Use a VPN - Helps secure data even if you reconnect to suspicious Wi-Fi.",
+                        "Avoid public Wi-Fi for sensitive tasks - Prefer mobile data or hotspot.",
+                        "Keep devices updated - New firmware often includes security patches.",
+                        "Monitor unusual drops - If Wi-Fi disconnects frequently in public, be cautious."
+                    ],
+                    "ending": ""
+                },
+                "faq": [
+                    {
+                        "id": "1",
+                        "que": "Is this attack the same as Wi-Fi jamming?",
+                        "ans": "No. Jamming blocks signals with noise, while deauth attacks send fake disconnect requests."
+                    },
+                    {
+                        "id": "2",
+                        "que": "How do I know if I'm under attack?",
+                        "ans": "Frequent unexplained Wi-Fi drops, especially in public, could be a sign — but detecting requires specialized tools."
+                    },
+                    {
+                        "id": "3",
+                        "que": "Can my home Wi-Fi be targeted?",
+                        "ans": "Yes, but enabling PMF and keeping devices updated makes it harder."
+                    }
+                ],
+                "tools": {
+                    "header": "🧰Tools & (Non-Actionable) Command Notes",
+                    "def": "The following tools are often referenced in wireless security research and penetration testing labs:",
+                    "points": [
+                        "aircrack-ng (suite): A collection of programs used for wireless auditing and testing.",
+                        "airodump-ng: Scans and lists Wi-Fi networks and connected clients.",
+                        "aireplay-ng: Packet injection tool for controlled simulations.",
+                        "airmon-ng: Helps create/manage monitor-mode interfaces on adapters.",
+                        "iw / iwconfig / ifconfig: Utilities to inspect and adjust wireless interface state."
+                    ],
+                    "ending": "Note: These tools must only be used in environments where you have full permission."
+                },
+                "conclusion": "⚠️ Deauthentication attacks show how fragile older Wi-Fi standards are. While attackers use it for disruption or bigger hacks, you can stay safe with a few preventive steps. Remember — knowledge is defense, not a license to hack."
             }
         },
         {
             "id": "2",
-            "title": "Top 5 JavaScript Tricks Every Developer Should Know",
-            "img": "five-js-tricks.png",
-            "keyterms": ["javascript", "frontend", "tricks"],
-            "tag": "Technology",
-            "slug": "top-5-javascript-tricks",
-            "classHeight": "20rem",
-            "published_at": "09/15/2025",
-            "reading_time_minutes": "5",
-            "subtitle": "From cleaner syntax shortcuts to advanced array manipulations, this article covers five powerful yet simple JavaScript tricks that can help developers write more efficient, maintainable, and professional-quality code.",
-            "content": [{}]
-        },
-        {
-            "id": "3",
-            "title": "Exploring Nepal’s Hidden Waterfalls",
-            "img": "exploring-nepal-waterfalls.png",
-            "keyterms": ["travel", "nepal", "nature"],
-            "tag": "Travel",
-            "slug": "exploring-nepal-hidden-waterfalls",
-            "classHeight": "20rem",
-            "published_at": "08/22/2024",
-            "reading_time_minutes": "4",
-            "subtitle": "Discover the untouched beauty of Nepal’s hidden waterfalls tucked away in remote valleys and lush forests, offering serene escapes, breathtaking scenery, and unique travel experiences for adventurers and nature lovers alike.",
-            "content": [{}]
-        },
-        {
-            "id": "4",
             "title": "Beginner’s Guide to Machine Learning",
             "img": "guide-to-machine-learning.png",
             "keyterms": ["AI", "machine learning", "data"],
@@ -60,9 +168,155 @@
             "slug": "beginners-guide-to-machine-learning",
             "classHeight": "20rem",
             "published_at": "07/10/2024",
-            "reading_time_minutes": "8",
-            "subtitle": "An easy-to-understand introduction to machine learning concepts, exploring supervised and unsupervised learning with practical examples so beginners can quickly grasp how AI models learn from data and solve problems.",
-            "content": [{}]
+            "reading_time_minutes": "4",
+            "subtitle": "Machine Learning (ML) is one of the most exciting technologies in the digital world. It powers features you use every day: from Netflix recommendations, voice assistants, to self-driving cars.",
+            "content": {
+                "introduction": "Machine Learning (ML) is one of the most exciting technologies in the digital world. It powers features you use every day: from Netflix recommendations, voice assistants, to self-driving cars. ML is more than just a buzzword; it is reshaping industries and the way we interact with technology. If you're new to the concept, ML might sound complicated, but this guide breaks it down in simple, easy-to-understand steps, so you can start learning and even building simple ML projects yourself.",
+                "wit": {
+                    "header": "Machine Learning",
+                    "def": "Machine Learning is a branch of Artificial Intelligence (AI) that enables computers to learn from data instead of following explicitly programmed instructions.",
+                    "points": [
+                        "Traditional programming: Humans write rules → computers follow them.",
+                        "Machine learning: Computers learn patterns from data → make decisions or predictions automatically."
+                    ],
+                    "ending": "ML allows computers to perform tasks such as predicting outcomes, classifying information, and making decisions based on data patterns."
+                },
+                "works": {
+                    "header": "⚙️ How Machine Learning Works (Simplified)",
+                    "def": "Machine Learning operates in a cycle of learning, testing, and improvement:",
+                    "points": [
+                        "Data Collection: Gather examples such as text, images, numbers, or sensor readings.",
+                        "Data Preparation: Clean and organize data to ensure accuracy.",
+                        "Model Training: Feed the data into a machine learning algorithm to identify patterns.",
+                        "Testing: Evaluate the model's predictions on new, unseen data.",
+                        "Improvement: Refine and retrain the model to increase performance and accuracy."
+                    ],
+                    "ending": "📌 Infographic idea: Flowchart showing Data → Model → Predictions → Feedback / Improvement."
+                },
+                "protect_type": {
+                    "header": "Types of Machine Learning",
+                    "points": [
+                        "Supervised Learning: Learns from labeled data, where the correct answers are known.",
+                        "Unsupervised Learning: Finds patterns in unlabeled data without pre-defined answers.",
+                        "Reinforcement Learning: Learns by trial and error with feedback through rewards or penalties.",
+                        "Semi-Supervised Learning: Combines a small amount of labeled data with a large amount of unlabeled data.",
+                        "Deep Learning: Uses neural networks to process large amounts of data, often used in image and speech recognition."
+                    ],
+                    "ending": ""
+                },
+                "faq": [
+                    {
+                        "id": "1",
+                        "que": "Do I need advanced math to start ML?",
+                        "ans": "Not immediately. Start with coding. Basic algebra, statistics, and probability help but can be learned alongside ML practice."
+                    },
+                    {
+                        "id": "2",
+                        "que": "Is ML the same as AI?",
+                        "ans": "No. Machine Learning is a subset of AI. AI encompasses broader technologies, while ML specifically focuses on learning from data."
+                    },
+                    {
+                        "id": "3",
+                        "que": "How long does it take to learn ML?",
+                        "ans": ": Beginners can create simple projects in 3–6 months with consistent practice."
+                    },
+                    {
+                        "id": "4",
+                        "que": "Can I learn ML without coding experience?",
+                        "ans": "Yes, but learning Python will make it much easier to experiment and implement ML projects"
+                    }
+                ],
+                "tools": {
+                    "header": "🤖 Real-Life Application Of Machine Learning ",
+                    "def": "Machine Learning powers numerous technologies we use daily:",
+                    "points": [
+                        "E-commerce: Personalized product recommendations.",
+                        "Music apps: Suggesting songs based on listening history.",
+                        "Healthcare: Detecting diseases early through scans and predictive analytics.",
+                        "Self-driving cars: Recognizing road signs, pedestrians, and obstacles.",
+                        "Email services: Filtering spam automatically.",
+                        "Finance: Detecting fraudulent transactions in real time.",
+                        "Search engines: Delivering relevant results based on user behavior."
+                    ],
+                    "ending": "Note: These tools must only be used in environments where you have full permission."
+                },
+                "conclusion": "Machine Learning is transforming industries, from healthcare to entertainment. It allows computers to learn patterns, make decisions, and automate processes, creating smarter and more efficient systems. For beginners, the key is to start small, stay curious, and experiment. Build simple projects, learn from data, and gradually take on complex problems. With dedication, anyone can begin their ML journey and eventually master it."
+            }
+        },
+        {
+            "id": "1",
+            "title": "Why Minimalist Website Designs Are Dominating in 2025",
+            "img": "minimalist_web_design.png",
+            "keyterms": ["minimalist", "web design", "ux", "2025", "design trends"],
+            "tag": "Design",
+            "slug": "minimalist-website-design-2025",
+            "classHeight": "15rem",
+            "published_at": "10/17/2025",
+            "reading_time_minutes": "4",
+            "subtitle": "Why clean, focused, and user-first website designs have become the standard in 2025 — benefits, trends, and practical tips to build modern minimalist sites.",
+            "content": {
+                "introduction": "A minimalist website design prioritizes clarity, whitespace, and focused content over decorative clutter. In 2025, websites are increasingly adopting this approach to improve usability, speed, and aesthetic appeal.",
+                "wit": {
+                    "header": "Minimalist Web Design",
+                    "def": "Minimalist web design emphasizes simplicity and essential functionality. By removing unnecessary elements, designers can:",
+                    "points": ["Enhance user focus on essential content.", "Reduce cognitive overload and distractions.", "Create cleaner and more professional visual aesthetics."],
+                    "ending": "Think of it like cleaning a cluttered room: only what’s important remains visible, making the space easier to use and navigate."
+                },
+                "works": {
+                    "header": "🛠️ How Minimalism Works in Web Design",
+                    "def": "",
+                    "points": [
+                        "Use whitespace strategically to separate sections and guide attention.",
+                        "Limit color palettes to create visual harmony and reduce distractions.",
+                        "Apply simple and readable typography for clarity.",
+                        "Design intuitive navigation to enhance the user experience.",
+                        "Focus on core content and calls-to-action instead of decorative elements."
+                    ],
+                    "ending": ""
+                },
+                "protect_type": {
+                    "header": "🎨 Best Practices & Features of Minimalist Design",
+                    "def": "",
+                    "points": [
+                        "Prioritize essential content and remove unnecessary elements to reduce clutter.",
+                        "Ensure fast loading times for optimal user experience and SEO.",
+                        "Design responsive layouts that adapt seamlessly to mobile and desktop devices.",
+                        "Maintain a timeless aesthetic to minimize the need for frequent redesigns.",
+                        "Use subtle visuals and micro-interactions to guide users without distraction."
+                    ],
+                    "ending": "Applying these best practices ensures a clean, user-friendly website that enhances readability, improves navigation, and delivers a modern, professional look."
+                },
+                "faq": [
+                    {
+                        "id": "1",
+                        "que": "Why are minimalist designs popular in 2025?",
+                        "ans": "Minimalist designs improve usability, speed, and focus on content, which aligns with user expectations and mobile-first browsing trends."
+                    },
+                    {
+                        "id": "2",
+                        "que": "Does minimalism mean boring design?",
+                        "ans": "Not at all. Minimalism emphasizes purposeful content and functionality while still allowing for creativity through typography, imagery, and subtle interactions."
+                    },
+                    {
+                        "id": "3",
+                        "que": "Is minimalism suitable for all websites?",
+                        "ans": "Yes, but the degree of minimalism can vary depending on content type, brand personality, and user needs."
+                    }
+                ],
+                "tools": {
+                    "header": "🧰 Tools & Notes for Minimalist Design",
+                    "def": "These are popular tools and resources that designers use to implement minimalist web design principles:",
+                    "points": [
+                        "Figma or Adobe XD: For clean, precise interface layouts.",
+                        "TailwindCSS or Bootstrap: For efficient, responsive design components.",
+                        "Canva or Illustrator: For creating simple, impactful graphics.",
+                        "Google Fonts: For selecting readable and elegant typography.",
+                        "Lighthouse & PageSpeed Insights: For monitoring website performance."
+                    ],
+                    "ending": "Note: These tools help designers maintain minimalism while ensuring functionality and user experience."
+                },
+                "conclusion": "Minimalist website design in 2025 focuses on clarity, speed, and user experience. By emphasizing essential content, whitespace, and intuitive navigation, websites become more effective, timeless, and visually appealing."
+            }
         }
     ]
 }
