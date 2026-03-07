@@ -15,6 +15,7 @@ function AllBlogCard({ item }) {
                     className={"object-cover"}
                     style={{
                         height: item.classHeight,
+                        
                     }}
                 />
             </div>

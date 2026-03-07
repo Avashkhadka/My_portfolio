@@ -132,7 +132,7 @@ function BlogContainer() {
                     </div>
                 </div>
                 <div className="mt-5 pl-5 text-[1.3rem] text-gray-300">
-                    {noOfVlogs} Blogs Found
+                    {!isLoading ?noOfVlogs+" Blogs Found": "Loading..."} 
                 </div>
 
                 {!isLoading ? (
