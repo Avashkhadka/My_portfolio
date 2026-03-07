@@ -1,6 +1,102 @@
 {
     "posts": [
         {
+            "id": "5",
+            "title": "How Students Can Build a Strong Developer Portfolio Before Graduation",
+            "img": "developer-portfolio-guide.jpg",
+            "keyterms": [
+                "developer portfolio",
+                "student developer portfolio",
+                "how to build developer portfolio",
+                "GitHub portfolio for students",
+                "programming projects for portfolio",
+                "software developer portfolio tips",
+                "coding portfolio for beginners",
+                "tech portfolio before graduation",
+                "developer portfolio examples",
+                "software engineering student portfolio"
+            ],
+            "tag": "Technology",
+            "slug": "how-students-build-strong-developer-portfolio-before-graduation",
+            "classHeight": "20rem",
+            "published_at": "03/07/2026",
+            "reading_time_minutes": "10",
+            "subtitle": "A practical guide for students to build a powerful developer portfolio before graduation by creating meaningful projects, showcasing code on GitHub, and building a strong online presence that attracts recruiters.",
+            "content": {
+                "introduction": "In today's competitive technology industry, students cannot rely only on academic degrees to secure developer jobs. Employers want to see real-world skills, problem-solving ability, and practical experience. A strong developer portfolio allows students to demonstrate their programming knowledge through projects, code repositories, and technical work. By building useful applications, maintaining a professional GitHub profile, and sharing technical knowledge online, students can significantly increase their chances of getting internships and full-time developer roles before graduation.",
+                "wit": {
+                    "header": "Understanding a Developer Portfolio",
+                    "def": "A developer portfolio is a curated collection of projects, code samples, and technical achievements that demonstrate a developer's practical skills and experience.",
+                    "points": [
+                        "A portfolio highlights real programming projects rather than theoretical knowledge.",
+                        "It shows recruiters how a student solves problems using technology.",
+                        "Most portfolios include project descriptions, GitHub repositories, and live demos.",
+                        "A well-structured portfolio reflects coding style, creativity, and technical growth.",
+                        "Employers often evaluate portfolios before scheduling technical interviews."
+                    ],
+                    "ending": "For students entering the tech industry, a well-built developer portfolio can become the most powerful tool for demonstrating practical skills."
+                },
+                "works": {
+                    "header": "Key Elements of a Strong Student Developer Portfolio",
+                    "def": "A strong developer portfolio should clearly present a student's technical abilities and projects.",
+                    "points": [
+                        "Personal Portfolio Website: A professional website that introduces the developer, skills, and projects.",
+                        "GitHub Profile: A well-organized repository showing coding practices, commits, and project history.",
+                        "Real Projects: Applications that solve real-world problems such as management systems or productivity tools.",
+                        "Clear Documentation: README files explaining project features, technologies used, and setup instructions.",
+                        "Project Demonstrations: Screenshots, videos, or live project links that allow recruiters to explore the application."
+                    ],
+                    "ending": "These elements help recruiters quickly understand the student's technical ability and project experience."
+                },
+                "protect_type": {
+                    "header": "Best Projects to Include in a Developer Portfolio",
+                    "points": [
+                        "Full Stack Applications: Projects that include frontend, backend, and database integration.",
+                        "Problem-Solving Tools: Utilities such as text processors, calculators, or productivity tools.",
+                        "Management Systems: Examples include student management, library management, or task management systems.",
+                        "Interactive Web Applications: Projects using modern frameworks like React or JavaScript-based UI interactions.",
+                        "API-Based Applications: Projects that integrate external APIs to demonstrate real-world development skills."
+                    ],
+                    "ending": "Including diverse projects helps demonstrate versatility and practical software development experience."
+                },
+                "tools": {
+                    "header": "Strategies to Improve Your Developer Portfolio",
+                    "def": "Building a strong developer portfolio requires consistency, learning, and continuous improvement.",
+                    "points": [
+                        "Upload all projects to GitHub and maintain a clean repository structure.",
+                        "Write technical blogs explaining concepts or project development processes.",
+                        "Keep improving existing projects by adding new features and optimizing code.",
+                        "Participate in open-source projects to gain collaborative development experience.",
+                        "Create a professional LinkedIn profile and share projects with the developer community."
+                    ],
+                    "ending": "These strategies help students continuously grow their skills and strengthen their professional presence in the tech industry."
+                },
+                "faq": [
+                    {
+                        "id": "1",
+                        "que": "Why is a developer portfolio important for students?",
+                        "ans": "A developer portfolio demonstrates real coding ability, practical experience, and problem-solving skills, helping students stand out to employers during internships and job applications."
+                    },
+                    {
+                        "id": "2",
+                        "que": "What projects should students include in their portfolio?",
+                        "ans": "Students should include projects that demonstrate different skills such as web development, full stack applications, problem-solving tools, and database-driven systems."
+                    },
+                    {
+                        "id": "3",
+                        "que": "Is GitHub important for a developer portfolio?",
+                        "ans": "Yes. GitHub allows recruiters to review code quality, development practices, and contribution history, making it a critical part of any developer portfolio."
+                    },
+                    {
+                        "id": "4",
+                        "que": "When should students start building their portfolio?",
+                        "ans": "Students should start building their portfolio as early as possible during their studies so they can accumulate multiple projects and improve their skills before graduation."
+                    }
+                ],
+                "conclusion": "A strong developer portfolio can significantly improve a student's chances of entering the technology industry before graduation. By building meaningful projects, maintaining a professional GitHub profile, writing technical content, and continuously improving their skills, students can demonstrate their practical abilities to recruiters. A well-crafted portfolio not only showcases technical expertise but also reflects passion, dedication, and readiness for real-world software development."
+            }
+        },
+        {
             "id": "4",
             "title": "Discover Kapuche: Trek to the World's Lowest Glacier Lake",
             "img": "kapuche-glacier-lake.jpg",
