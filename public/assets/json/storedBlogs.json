@@ -37,7 +37,7 @@
                     "ending": "For students entering the tech industry, a well-built developer portfolio can become the most powerful tool for demonstrating practical skills."
                 },
                 "works": {
-                    "header": "Key Elements of a Strong Student Developer Portfolio",
+                    "header": " 🧩 Key Elements of a Strong Student Developer Portfolio",
                     "def": "A strong developer portfolio should clearly present a student's technical abilities and projects.",
                     "points": [
                         "Personal Portfolio Website: A professional website that introduces the developer, skills, and projects.",
@@ -49,7 +49,7 @@
                     "ending": "These elements help recruiters quickly understand the student's technical ability and project experience."
                 },
                 "protect_type": {
-                    "header": "Best Projects to Include in a Developer Portfolio",
+                    "header": "💻 Best Projects to Include in a Developer Portfolio",
                     "points": [
                         "Full Stack Applications: Projects that include frontend, backend, and database integration.",
                         "Problem-Solving Tools: Utilities such as text processors, calculators, or productivity tools.",
@@ -60,7 +60,7 @@
                     "ending": "Including diverse projects helps demonstrate versatility and practical software development experience."
                 },
                 "tools": {
-                    "header": "Strategies to Improve Your Developer Portfolio",
+                    "header": "🚀 Strategies to Improve Your Developer Portfolio",
                     "def": "Building a strong developer portfolio requires consistency, learning, and continuous improvement.",
                     "points": [
                         "Upload all projects to GitHub and maintain a clean repository structure.",

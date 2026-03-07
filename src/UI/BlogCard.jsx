@@ -105,7 +105,7 @@ function BlogCard({ content, setTobContext }) {
                         {content.protect_type.def}
                         {content.protect_type.points ? (
                             <ul className="pl-10 sm:pl-15 list-disc">
-                                {content.works.points.map((item, index) => {
+                                {content.protect_type.points.map((item, index) => {
                                     return <li key={index}>{item}</li>;
                                 })}
                             </ul>
