@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router";
-import PageNotFound from "./Components/PageNotFound";
+// import PageNotFound from "./Components/PageNotFound";
 import RouteMain from "./Components/RouteMain";
 import Home from "./Components/Home";
 import BlogContainer from "./Components/BlogContainer";
@@ -27,7 +27,7 @@ function App() {
 
                     <Route path="/blog/:slug" element={<Blogpage />} />
                 </Route>
-                <Route path="*" element={<PageNotFound />} />
+                {/* <Route path="*" element={<PageNotFound />} /> */}
             </Routes>
         </>
     );

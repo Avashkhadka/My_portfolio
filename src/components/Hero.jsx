@@ -63,7 +63,7 @@ export default function Herosec({ hasAnimated }) {
             }`}
             id="hero"
         >
-            <div className="heroinner">
+            <div className="heroinnner">
                 <div className="intoduction">
                     <p className="hi">Hello there👋</p>
                     <div>
