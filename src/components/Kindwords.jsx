@@ -5,25 +5,25 @@ export default function Kindwords({ hasAnimated }) {
     let kindwordsArr = [
         {
             remarks:
-                "You possess impressive coding skills and a strong willingness to learn, which will benefit your career greatly.",
-            name: "Alex Martinez",
-            company: "TechWave Solutions",
-            image: "https://r2.erweima.ai/imgcompressed/compressed_3bd8a54079628cbf3098ca951c74a939.webp",
-        },
-        {
-            remarks:
-                "Your strong front-end knowledge and excellent communication skills make you an invaluable asset to any team.",
+            "Your strong front-end knowledge and excellent communication skills make you an invaluable asset to any team.",
             name: "Sarah Chen",
             company: "CodeCrafters Inc.",
             image: "https://img.freepik.com/premium-photo/professional-cv-photo-confident-business-woman-formal-attire_981640-67310.jpg",
         },
         {
             remarks:
-                "With a solid understanding of back-end technologies, you have great potential for rapid career growth ahead.",
+            "With a solid understanding of back-end technologies, you have great potential for rapid career growth ahead.",
             name: "Michael Thompson",
             company: "DevExperts",
             image: "https://image7.photobiz.com/4062/8_20190716211353_10469804_large.jpg",
         },
+        {
+            remarks:
+                "You possess impressive coding skills and a strong willingness to learn, which will benefit your career greatly.",
+            name: "Alex Martinez",
+            company: "TechWave Solutions",
+            image: "https://r2.erweima.ai/imgcompressed/compressed_3bd8a54079628cbf3098ca951c74a939.webp",
+        }
     ];
 
     let [isindex, setisindex] = useState(0);
