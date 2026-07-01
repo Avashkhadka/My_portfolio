@@ -1,6 +1,111 @@
 {
     "posts": [
         {
+            "id": "6",
+            "title": "I Let AI Build My E-commerce Platform… And Honestly, It Scared Me",
+            "img": "ai-vibe-coding-future.jpg",
+            "keyterms": [
+                "AI coding",
+                "vibe coding",
+                "future of developers",
+                "AI replacing programmers",
+                "artificial intelligence",
+                "AI agents",
+                "software development with AI",
+                "developer skills in AI era",
+                "AI productivity",
+                "future of programming"
+            ],
+            "tag": "Technology",
+            "slug": "vibe-coded-ecommerce-platform-future-of-developers-ai-era",
+            "classHeight": "20rem",
+            "published_at": "07/01/2026",
+            "reading_time_minutes": "12",
+            "subtitle": "I built an e-commerce platform with AI assistance and witnessed how AI can write code, execute commands, browse websites, and interact with user interfaces. This experience changed my perspective on programming, AI, and the future role of developers.",
+            "content": {
+                "introduction": "A few years ago, building a complete e-commerce platform required a developer to manually write thousands of lines of code, search through documentation, debug errors, and spend countless hours solving small problems. Recently, I experimented with something completely different: vibe coding. Instead of writing every part of the application manually, I collaborated with AI to build an e-commerce platform by describing what I wanted, reviewing generated solutions, and guiding the development process. What surprised me was not only AI's ability to generate code but its ability to understand context, execute commands, analyze errors, interact with browsers, and assist like a development partner. This experience made me realize that software development is entering a completely new era. The question is no longer whether AI will affect developers, but how developers will adapt and grow alongside AI.",
+
+                "wit": {
+                    "header": "AI: What Is Actually Happening?",
+                    "def": "Artificial Intelligence (AI) is a field of computer science focused on creating systems that can perform tasks that usually require human intelligence, including learning, reasoning, understanding language, recognizing patterns, and making decisions.",
+                    "points": [
+                        "AI does not think like humans. Instead, it identifies patterns from enormous amounts of data and generates responses based on those patterns.",
+                        "Modern AI models can understand programming languages, natural language, images, and complex instructions.",
+                        "Large Language Models (LLMs) are trained using billions of examples, allowing them to predict and generate useful information.",
+                        "AI agents go beyond simple chat responses by planning tasks, using external tools, executing actions, and interacting with software.",
+                        "AI becomes more powerful when combined with human guidance, creativity, and decision-making."
+                    ],
+                    "ending": "The power of AI comes from collaboration between human intelligence and machine capabilities. AI is not replacing intelligence; it is changing how intelligence is applied."
+                },
+
+                "works": {
+                    "header": "⚙️ How AI Coding Assistants Actually Work",
+                    "def": "AI coding assistants work by analyzing patterns learned from billions of examples of text and code. When a developer gives a prompt, the AI predicts and generates useful responses based on its training.",
+                    "points": [
+                        "Understanding Prompt: AI analyzes the developer's request and identifies the required task.",
+                        "Generating Solution: AI creates code, explanations, or possible approaches.",
+                        "Tool Usage: Advanced AI agents can execute commands, inspect files, browse websites, and interact with applications.",
+                        "Feedback Loop: Developers review AI output, provide corrections, and improve the final result.",
+                        "Human Decision Making: Developers remain responsible for architecture, security, and final implementation."
+                    ],
+                    "ending": "The biggest change is that developers are moving from writing every single line of code manually to designing systems, solving problems, and guiding AI effectively."
+                },
+
+                "protect_type": {
+                    "header": "🛡️ How Developers Can Avoid Being Replaced by AI",
+                    "def": "The rise of AI does not mean developers become useless. However, developers who only know how to write code without understanding the bigger picture may struggle. The key is to evolve from being a code writer into a problem solver, system designer, and technology creator.",
+                    "points": [
+                        "Learn problem-solving instead of only memorizing programming syntax. AI can generate code, but humans still need to decide what problems should be solved.",
+                        "Understand software architecture, databases, security, APIs, and system design because building reliable systems requires deeper technical knowledge.",
+                        "Use AI as a productivity multiplier rather than seeing it only as a competitor. Developers who know how to collaborate with AI can build faster and better.",
+                        "Improve communication skills because understanding user needs, business requirements, and human problems remains a major advantage.",
+                        "Build real-world projects because practical experience teaches decision-making, debugging, and handling challenges that AI cannot fully understand.",
+                        "Develop creativity and critical thinking because innovation comes from human experiences, imagination, and unique perspectives."
+                    ],
+                    "ending": "The developers who adapt with AI will have a significant advantage over those who ignore it. The future will not belong to AI alone or humans alone, but to those who can combine human creativity with artificial intelligence."
+                },
+
+                "tools": {
+                    "header": "🚀 My Experience: Building an E-commerce Platform Through Vibe Coding",
+                    "def": "During my experiment with vibe coding, I experienced how AI can transform the traditional development workflow:",
+                    "points": [
+                        "I could describe features in natural language instead of starting every feature from zero.",
+                        "AI helped generate frontend interfaces, backend logic, and repetitive code faster.",
+                        "AI assisted in finding bugs and explaining technical problems during development.",
+                        "AI agents could interact with development environments by running commands and analyzing results.",
+                        "Browser automation allowed AI to understand and test user interface behavior.",
+                        "The development process became more focused on architecture, decision-making, and improving the final product."
+                    ],
+                    "ending": "The experience showed me that AI is not simply a code generator. When used correctly, it becomes a development partner that increases creativity and productivity."
+                },
+
+                "faq": [
+                    {
+                        "id": "1",
+                        "que": "Will AI replace software developers?",
+                        "ans": "AI will replace some repetitive development tasks, but developers who understand technology, solve complex problems, and use AI effectively will continue to be valuable."
+                    },
+                    {
+                        "id": "2",
+                        "que": "Is learning programming still important because AI can write code?",
+                        "ans": "Yes. Without programming knowledge, developers cannot properly evaluate AI-generated code, identify mistakes, or design reliable systems."
+                    },
+                    {
+                        "id": "3",
+                        "que": "What is vibe coding?",
+                        "ans": "Vibe coding is a development approach where developers use AI by describing goals and ideas while AI assists with implementation, allowing faster experimentation and prototyping."
+                    },
+                    {
+                        "id": "4",
+                        "que": "What should future developers learn?",
+                        "ans": "Future developers should focus on programming fundamentals, AI tools, system design, creativity, communication, and building real-world applications."
+                    }
+                ],
+
+                "conclusion": "My experience building an e-commerce platform with AI changed the way I view software development. The future is not a battle between humans and machines. AI is becoming a powerful tool that can help developers move faster, experiment more, and focus on solving meaningful problems. However, the value of a developer will not come only from writing code. It will come from understanding users, designing systems, making decisions, and using technology creatively. The developers who adapt, learn continuously, and embrace AI as a partner will not be replaced by AI — they will be the ones using AI to create the future."
+            }
+        },
+        {
             "id": "5",
             "title": "How Students Can Build a Strong Developer Portfolio Before Graduation",
             "img": "developer-portfolio-guide.jpg",
