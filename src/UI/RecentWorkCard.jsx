@@ -16,14 +16,15 @@ function Rcardcomp(props) {
     //         s(true)
     //     }, 2000);
     // },[])
+    const style = {
+        top: `${props.data.style[0]}px`,
+        left: `${props.data.style[1]}px`,
+    };
+
     return (
         <div
             id={`rw${props.ind}`}
-            className={`group  Rcardcontainer transition-all duration-500 ${
-                hasAnimated[`rw${props.ind}`]
-                    ? "opacity-100 translate-y-0"
-                    : "opacity-0 translate-y-10"
-            } `}
+            className={`group  Rcardcontainer transition-all duration-500 ${hasAnimated[`rw${props.ind}`] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} `}
             style={Rcardcontainerbf}
         >
             <div className="other-data-title">
@@ -32,21 +33,13 @@ function Rcardcomp(props) {
                 </div>
                 <p className="rcardcontiner-title">{props.data.title}</p>
                 {/* eslint-disable-next-line */}
-                <a
-                    className="link-rcard"
-                    target="_blank"
-                    href={props.data.link}
-                >
+                <a className="link-rcard" target="_blank" href={props.data.link}>
                     <p>View Live Project </p>
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
             </div>
             <div className="rcard-image" style={Rcardimgcontainerbf}>
-                <img
-                    src={props.data.image}
-                    alt=""
-                    className={`r-card-img rcard-img-${props.ind} group-hover:scale-[1.07]`}
-                />
+                <img src={props.data.image} alt="" style={style} className={`r-card-img group-hover:scale-[1.07]`} />
             </div>
         </div>
     );

@@ -5,7 +5,7 @@ import Rcardcomp from "../UI/RecentWorkCard";
 import { works } from "../Data/RecentWorks";
 export default function Recentworks({hasAnimated}) {
    
-
+    
     return (
         <div
             

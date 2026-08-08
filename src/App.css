@@ -503,24 +503,10 @@ nav {
 .r-card-img {
     width: 39rem;
     object-fit: contain;
-    position: relative;
+    position: absolute;
     transition: 0.3s;
 }
 
-.rcard-img-1 {
-    top: -13px;
-    left: -5px;
-}
-
-.rcard-img-2 {
-    top: 29px;
-    left: -4px;
-}
-
-.rcard-img-3 {
-    top: 50%;
-    transform: translateY(-50%);
-}
 
 
 
