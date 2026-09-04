@@ -1,8 +1,8 @@
 import { Check, ChevronDown, Search } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
-import AllBlogCard from "../ui/AllBlogCard";
+import { useIntersectionObserver } from "../Hooks/useIntersectionObserver";
+import AllBlogCard from "../UI/AllBlogCard";
 function BlogContainer() {
     const hasAnimated = useIntersectionObserver();
     const [searchBlogs, setSearchBlogs] = useState([]);
