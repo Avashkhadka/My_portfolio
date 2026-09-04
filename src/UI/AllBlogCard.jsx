@@ -10,7 +10,7 @@ function AllBlogCard({ item }) {
         >
             <div className="overflow-hidden flex justify-center h-[20rem] min-w-80">
                 <img
-                    src={`assets/images/${item.img}`}
+                    src={`/assets/images/${item.img}`}
                     alt=""
                     className={"object-cover"}
                     style={{

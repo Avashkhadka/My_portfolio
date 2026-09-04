@@ -21,7 +21,7 @@ function BlogCard({ content, setTobContext }) {
             <h2 className="text-[24px] mb-3 sm:mb-0 sm:text-[32px] opacity-90 md:opacity-100 mt-10 font-medium text-gray-200 " id="toc_intro">
                 📝Introduction
             </h2>
-            <p className="text-[16px] text-gray-300 opacity-80  md:opacity-100 text-justify space-y-2">{content.introduction && content.introduction.map((para, index) => <p key={index}>{para}</p>)}</p>
+            <div className="text-[16px] text-gray-300 opacity-80  md:opacity-100 text-justify space-y-2">{content.introduction && content.introduction.map((para, index) => <p key={index}>{para}</p>)}</div>
 
             {content.normalContent &&
                 content.normalContent.map((item, index) => {
@@ -55,11 +55,10 @@ function BlogCard({ content, setTobContext }) {
                         <h2 className="text-[24px] mb-3 sm:mb-0 sm:text-[32px] opacity-90 md:opacity-100 mt-10 font-medium text-gray-200 " id="toc_conclusion">
                             ✅ Conclusion
                         </h2>
-                        <p className="text-[16px] text-gray-300 opacity-80  md:opacity-100 text-justify space-y-2">{content.conclusion && content.conclusion.map((para, index) => <p key={index} >{para}</p>)}</p>
+                        <div className="text-[16px] text-gray-300 opacity-80  md:opacity-100 text-justify space-y-2">{content.conclusion && content.conclusion.map((para, index) => <p key={index} >{para}</p>)}</div>
                     </>
                 ) : null}
             </>
-
             <>
                 <h2 className="text-[24px] mb-3 sm:mb-0 sm:text-[32px] opacity-90 md:opacity-100 mt-10 font-medium text-gray-200 " id="toc_faq">
                     💡Quick FAQ

@@ -41,7 +41,7 @@ function Blogpage() {
                 <div className=" animate-fade-in-up sm:">
                     <div className="sm:h-150 md:h-130 overflow-hidden">
                         <img
-                            src={`assets/images/${blog.img}`}
+                            src={`/assets/images/${blog.img}`}
                             className=" object-cover mx-auto sm:h-150  md:h-auto sm:-translate-y-30"
                             alt=""
                         />
