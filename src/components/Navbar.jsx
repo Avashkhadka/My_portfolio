@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navigate, useNavigate } from "react-router";
-import { useScrollToSection } from "../hooks/useScrollToSection";
+import { useScrollToSection } from "../Hooks/useScrollToSection";
 
 export default function Navbar() {
     let [navMenuToggle, setnavMenuToggle] = useState(true);

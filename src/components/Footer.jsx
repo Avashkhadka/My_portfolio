@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import myCv from "../assets/pdf/MYCV.pdf";
 import { Send } from "lucide-react";
-import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
+import { useIntersectionObserver } from "../Hooks/useIntersectionObserver";
 function Footer() {
     const hasAnimated = useIntersectionObserver();
     let Thisyear = new Date().getFullYear();
