@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import KindowordsContainerItem from "../ui/KindwordsContainerItem";
+import KindowordsContainerItem from "../UI/KindwordsContainerItem";
 
 export default function Kindwords({ hasAnimated }) {
     let kindwordsArr = [

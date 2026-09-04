@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import ResumeExpCard from "../ui/ResumeExpCard";
-import SkillsCard from "../ui/SkillsCard";
+import ResumeExpCard from "../UI/ResumeExpCard";
+import SkillsCard from "../UI/SkillsCard";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact, FaBootstrap } from "react-icons/fa";
