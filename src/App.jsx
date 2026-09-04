@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router";
-import PageNotFound from "./Components/PageNotFound";
-import RouteMain from "./Components/RouteMain";
-import Home from "./Components/Home";
-import BlogContainer from "./Components/BlogContainer";
-import Blogpage from "./Components/Blogpage";
+import PageNotFound from "./components/PageNotFound";
+import RouteMain from "./components/RouteMain";
+import Home from "./components/Home";
+import BlogContainer from "./components/BlogContainer";
+import Blogpage from "./components/Blogpage";
 
 function App() {
     // const router = createBrowserRouter(createRoutesFromElements(
