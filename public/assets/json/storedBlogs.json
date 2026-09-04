@@ -37,9 +37,9 @@
                     {
                         "label": "developer_role",
                         "header": "💻 Six Months as a Junior Software Developer",
-                        "def": "The first six months as a Junior Software Developer have provided practical exposure to full-stack development, Python backend development, system communication, testing, monitoring, security, and deployment. Working on real-world projects has required understanding not only how to write code, but also how different software and hardware components operate together.",
+                        "def": "The first six months as a Junior Software Developer have provided practical exposure to full-stack development, Python backend development, system communication, testing, monitoring, security, and deployment. Working on real-world projects has required understanding not only how to write code, but also how different software and hardware Components operate together.",
                         "points": [
-                            "Developed frontend interfaces and Python backend functionality while gaining practical experience in connecting application components and implementing features required for real-world software projects.",
+                            "Developed frontend interfaces and Python backend functionality while gaining practical experience in connecting application Components and implementing features required for real-world software projects.",
                             "Worked with real-time socket communication and system-to-system data exchange, gaining a better understanding of how different applications communicate and transfer information reliably. Gained practical experience with UART communication, hexadecimal data, and DEX data processing while working with software that communicates directly with external hardware systems.",
                             "Worked with encryption and decryption techniques for secure data handling, developing a stronger understanding of how sensitive information should be protected during system communication. Contributed to testing, documentation, automation, debugging, and system monitoring, gaining experience with responsibilities that extend beyond simply developing application features."
                         ],
@@ -722,7 +722,7 @@
                         "def": "These are popular tools and resources that designers use to implement minimalist web design principles:",
                         "points": [
                             "Figma or Adobe XD: For clean, precise interface layouts.",
-                            "TailwindCSS or Bootstrap: For efficient, responsive design components.",
+                            "TailwindCSS or Bootstrap: For efficient, responsive design Components.",
                             "Canva or Illustrator: For creating simple, impactful graphics.",
                             "Google Fonts: For selecting readable and elegant typography.",
                             "Lighthouse & PageSpeed Insights: For monitoring website performance."
