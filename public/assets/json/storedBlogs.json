@@ -1,6 +1,219 @@
 {
     "posts": [
         {
+            "id": "7",
+            "title": "My First 6 Months in the Tech Industry — What I Learned Beyond Coding",
+            "img": "six-months-tech-industry-experience.jpg",
+            "keyterms": [
+                "junior software developer experience",
+                "first six months in tech industry",
+                "software developer journey",
+                "Python backend development",
+                "full stack developer experience",
+                "vending machine software",
+                "Linux system development",
+                "socket communication",
+                "quality assurance automation",
+                "Selenium testing",
+                "UART communication",
+                "software engineering experience"
+            ],
+            "tag": "Technology",
+            "slug": "my-first-six-months-working-tech-industry-junior-software-developer",
+            "classHeight": "20rem",
+            "published_at": "09/03/2026",
+            "reading_time_minutes": "12",
+            "subtitle": "Six months ago, I entered the tech industry as a Junior Software Developer. Since then, I have worked with Python, frontend development, socket communication, Linux services, UART communication, vending machine systems, QA automation, encryption, monitoring systems, and much more. Here is what I learned beyond simply writing code.",
+            "content": {
+                "introduction": [
+                    "I joined Sakchha Technologies as a Junior Software Developer in April, and my first six months in the tech industry have been very different from what I expected. Before entering a professional environment, most of my experience came from personal projects, academic assignments, and learning technologies individually. In the industry, however, I quickly realized that software development is much bigger than writing code that simply works.",
+                    " A real project involves communication between different systems, hardware integration, testing, documentation, security, deployment, monitoring, logging, and maintaining applications after they are released. During these six months, I have worked across both frontend and Python backend development while also contributing to quality assurance, automation, Linux system configuration, communication protocols, and monitoring systems.",
+                    " One of the biggest projects I have been involved with is a vending machine controller system. This experience has given me a completely different perspective on what it means to be a software developer."
+                ],
+
+                "codeContent": [],
+                "imageContent": [],
+                "normalContent": [
+                    {
+                        "label": "developer_role",
+                        "header": "💻 My Role: More Than Just Writing Python",
+                        "def": "The role of a Junior Software Developer involves working across different stages of the software development process. Rather than focusing on a single programming language or application layer, the experience has included frontend development, Python backend development, system communication, testing, automation, monitoring, and Linux-based deployments.",
+                        "points": [
+                            "Python is used for backend development and application logic.",
+                            "Frontend development provides experience with the application from a full-stack perspective.",
+                            "Understanding communication between different components helps build systems that work as an integrated whole.",
+                            "Socket communication provides practical experience with real-time data exchange between systems.",
+                            "Linux commands and services are used to run, manage, and maintain applications.",
+                            "Quality assurance, documentation, testing, automation, monitoring, and debugging are also important parts of the development process."
+                        ],
+                        "isPoint": true,
+                        "ending": "One of the biggest lessons from this experience is that professional software development rarely involves a single technology. Real-world projects require developers to understand multiple systems and continuously learn whatever is necessary to solve problems effectively."
+                    },
+                    {
+                        "label": "vending_machine_project",
+                        "header": "⚙️ Working on a Vending Machine Controller System",
+                        "def": "One of the most significant projects during these six months has been a vending machine controller system. The primary responsibilities have focused on the software side, including frontend development and major components of the Python backend. While the physical hardware was developed separately, the software required an understanding of how applications communicate with and respond to the machine.",
+                        "points": [
+                            "Developed and maintained the frontend interface for the vending machine system.",
+                            "Implemented major functions and application logic within the Python backend.",
+                            "Worked with communication between software components and external systems.",
+                            "Developed a Python-based simulator to reproduce vending machine responses during development and testing.",
+                            "Used the simulator to test application behavior when physical hardware was not consistently available.",
+                            "Gained practical experience handling communication, responses, errors, and unexpected situations in hardware-integrated software."
+                        ],
+                        "isPoint": true,
+                        "ending": "This project demonstrated that software does not always operate within a browser or database. In hardware-integrated systems, applications must communicate with physical machines, respond to real-world events, and remain reliable when unexpected conditions occur."
+                    },
+                    {
+                        "label": "system_communication",
+                        "header": "🔌 Learning How Systems Actually Communicate",
+                        "def": "One of the most technically valuable areas of the experience has been communication between different systems. While APIs and basic networking concepts provide a foundation, working with real applications introduced more practical communication methods, protocols, and data formats.",
+                        "points": [
+                            "Socket Communication: Gained practical experience with direct socket-based communication and real-time data exchange.",
+                            "Hexadecimal Data Transfer: Worked with transferring, interpreting, and processing data represented in hexadecimal format.",
+                            "UART Communication: Developed an understanding of serial communication between software and hardware devices.",
+                            "DEX Data: Worked with DEX data and learned how structured machine-related information is processed by software.",
+                            "Encryption and Decryption: Worked with encryption and decryption of DEX data to handle information securely.",
+                            "Data Processing: Learned that communication involves more than receiving data; applications must correctly interpret, validate, process, and respond to incoming information."
+                        ],
+                        "isPoint": true,
+                        "ending": "These experiences demonstrated that communication is a fundamental part of modern software systems. Applications, devices, services, and remote systems all depend on reliable methods of exchanging information."
+                    },
+                    {
+                        "label": "linux_and_services",
+                        "header": "🐧 Linux: The Things You Don't Learn From Just Running Code",
+                        "def": "Working on real projects introduced a deeper understanding of Linux system administration. Instead of simply executing Python files manually, the experience involved learning how applications operate as services, how processes are managed, and how systems can automatically keep software running.",
+                        "points": [
+                            "Used system-level Linux commands for managing applications and development environments.",
+                            "Used systemctl to create and manage Linux services.",
+                            "Configured applications to run as background services rather than requiring manual startup.",
+                            "Learned how services can be started, stopped, restarted, and monitored.",
+                            "Developed an understanding of application processes and overall system behavior.",
+                            "Worked with system logs and journal logs to investigate issues and understand application activity."
+                        ],
+                        "isPoint": true,
+                        "ending": "This represented a significant shift from basic development workflows. Writing an application is only the beginning; professional development also requires understanding how software runs, handles failures, and behaves within an operating system."
+                    },
+                    {
+                        "label": "monitoring_and_watchdogs",
+                        "header": "👀 Building Monitoring and Watchdog Systems",
+                        "def": "Another important area of work has been application monitoring. In a real-world environment, starting an application is not enough; systems also need mechanisms to determine whether applications and services continue to operate correctly.",
+                        "points": [
+                            "Developed different watchdog mechanisms for monitoring applications.",
+                            "Monitored client-side and backend applications separately.",
+                            "Designed independent monitoring for different components of the system.",
+                            "Used monitoring to help detect application failures and unexpected behavior.",
+                            "Developed a stronger understanding of software reliability beyond feature development.",
+                            "Gained practical experience with systems designed to monitor other systems."
+                        ],
+                        "isPoint": true,
+                        "ending": "Working with watchdog systems highlighted the importance of reliability in software development. Applications should not only function under normal conditions but should also be monitored so problems can be detected and addressed when failures occur."
+                    },
+                    {
+                        "label": "quality_assurance",
+                        "header": "🧪 Working as a Quality Assurance Engineer Too",
+                        "def": "Software development has also involved significant exposure to testing and documentation. Contributing to quality assurance provided a different perspective on software development and highlighted the importance of verifying not only whether a feature works, but also how it behaves under unexpected conditions.",
+                        "points": [
+                            "Created test cases to verify application functionality and expected behavior.",
+                            "Documented project requirements to establish clear expectations for system functionality.",
+                            "Recorded testing results and outcomes for future reference.",
+                            "Considered edge cases and scenarios where application functionality could fail.",
+                            "Implemented automated testing using Selenium for selected parts of the project.",
+                            "Used automation to reduce repetitive manual testing and improve testing efficiency."
+                        ],
+                        "isPoint": true,
+                        "ending": "Working with QA provided an important perspective: developers focus on making software work, while testers also focus on discovering how it can fail. Understanding both perspectives contributes to stronger software development practices."
+                    },
+                    {
+                        "label": "security_and_remote_access",
+                        "header": "🔐 Security, Remote Access, and Protecting the Application",
+                        "def": "Another area of experience involved security and remote system communication. Real-world applications often communicate with systems located remotely, making secure connections and responsible data handling essential parts of the development process.",
+                        "points": [
+                            "Used SSL for secure remote communication with another device.",
+                            "Worked with remote connections for system monitoring and configuration.",
+                            "Applied encryption and decryption when handling DEX-related data.",
+                            "Developed an understanding of the importance of protecting information exchanged between systems.",
+                            "Gained experience treating security as an integral part of development rather than an additional step at the end."
+                        ],
+                        "isPoint": true,
+                        "ending": "Security is not limited to preventing attacks. It also involves ensuring that systems communicate safely, information is handled correctly, and remote access is designed responsibly."
+                    },
+                    {
+                        "label": "logging_and_debugging",
+                        "header": "📄 Logging Everything: Because Bugs Don't Always Happen When You're Watching",
+                        "def": "One of the practical challenges in software development is investigating issues that occurred hours or even days earlier. Without useful records of system activity, identifying the root cause can become extremely difficult. This created the need for custom logging functionality.",
+                        "points": [
+                            "Created custom functions to store application data in separate log files.",
+                            "Implemented custom application logs for tracking system behavior.",
+                            "Used system logs as part of the debugging and monitoring process.",
+                            "Worked with journal logs to understand Linux service and system activity.",
+                            "Used separate logging to organize different categories of application information.",
+                            "Used logs to investigate issues that could not always be reproduced immediately."
+                        ],
+                        "isPoint": true,
+                        "ending": "This experience demonstrated that effective logging acts as a historical record of an application. When something goes wrong, logs provide valuable information for tracing events and understanding what happened."
+                    },
+                    {
+                        "label": "deployment_and_packaging",
+                        "header": "📦 Packaging the Application and Protecting the Source Code",
+                        "def": "Developing an application is only one part of the software lifecycle. Preparing that application to run reliably on another system introduces additional challenges involving packaging, dependencies, environments, and deployment. This provided practical experience with preparing Python applications for distribution.",
+                        "points": [
+                            "Compiled and packaged Python projects using PyInstaller.",
+                            "Prepared applications for deployment through executable packaging.",
+                            "Used compiled applications to avoid directly distributing the original Python source files.",
+                            "Gained experience with dependencies, environments, and application deployment requirements.",
+                            "Developed a clearer understanding of the differences between development and production environments."
+                        ],
+                        "isPoint": true,
+                        "ending": "This experience reinforced that software engineering does not end when code works on a developer's computer. A production application must also be packaged, deployed, configured, monitored, and maintained."
+                    },
+                    {
+                        "label": "key_lessons",
+                        "header": "🚀 The Biggest Things Learned in the First Six Months",
+                        "def": "Looking back at the past six months, the biggest change has not been learning one specific programming language or tool. The most significant change has been developing a broader understanding of how software operates in real-world environments.",
+                        "points": [
+                            "Writing code is only one part of software development.",
+                            "Real projects involve communication between multiple systems, devices, services, and applications.",
+                            "Testing is just as important as development.",
+                            "Documentation helps teams understand requirements and track results.",
+                            "Linux and deployment knowledge are highly valuable for backend and system-level development.",
+                            "Monitoring and logging are essential because production applications need to be continuously observed.",
+                            "Security must be considered whenever systems exchange data remotely.",
+                            "Developers do not need to know everything before starting a job, but continuous learning is essential.",
+                            "Working on real projects provides lessons that tutorials and small practice projects often cannot replicate."
+                        ],
+                        "isPoint": true,
+                        "ending": "Perhaps the most important lesson is that the technology industry constantly pushes developers outside their comfort zones. One day may involve frontend development, while the next may involve debugging a Linux service, analyzing hexadecimal data, creating automated tests, or investigating why two systems are unable to communicate."
+                    }
+                ],
+
+                "faq": [
+                    {
+                        "id": "1",
+                        "que": "What was your biggest learning experience during your first six months?",
+                        "ans": "My biggest learning experience was understanding that professional software development involves much more than writing code. I learned about communication, testing, deployment, monitoring, Linux systems, logging, security, and real-world problem solving."
+                    },
+                    {
+                        "id": "2",
+                        "que": "What technologies did you work with?",
+                        "ans": "During these six months, I worked with Python backend development, frontend development, socket communication, UART communication, hexadecimal data, DEX data processing, encryption and decryption, Linux, systemctl, Selenium, PyInstaller, SSL, logging, monitoring, and automated testing."
+                    },
+                    {
+                        "id": "3",
+                        "que": "Did you work only as a software developer?",
+                        "ans": "My primary role was Junior Software Developer, but I also contributed to quality assurance, test case creation, documentation, automated testing, monitoring, and system-level tasks."
+                    },
+                    {
+                        "id": "4",
+                        "que": "What advice would you give to students entering the tech industry?",
+                        "ans": "Focus on strong fundamentals, build real projects, learn how systems work beyond the code editor, and most importantly, stay comfortable with learning unfamiliar technologies."
+                    }
+                ],
+
+                "conclusion": "My first six months in the tech industry have taught me more than I expected. When I joined Sakchha Technologies as a Junior Software Developer in April, I knew I would be writing code and learning new technologies. What I did not fully realize was how much exists beyond the code itself. From Python backend development and frontend work to socket communication, UART, DEX data, encryption, Linux services, vending machine simulation, QA automation, Selenium testing, watchdog systems, SSL connections, logging, and application deployment, every new challenge taught me something different. I am still at the beginning of my journey, and I know there is much more to learn. But these first six months have changed the way I see software development. I no longer see a project as just a collection of files and functions. I see it as a living system that needs to communicate, run reliably, handle failures, protect data, log its behavior, and solve real-world problems. And honestly, that is what makes this journey exciting."
+            }
+        },
+        {
             "id": "6",
             "title": "I Let AI Build My E-commerce Platform… And Honestly, It Scared Me",
             "img": "ai-vibe-coding-future.jpg",
@@ -23,61 +236,71 @@
             "reading_time_minutes": "12",
             "subtitle": "I built an e-commerce platform with AI assistance and witnessed how AI can write code, execute commands, browse websites, and interact with user interfaces. This experience changed my perspective on programming, AI, and the future role of developers.",
             "content": {
-                "introduction": "A few years ago, building a complete e-commerce platform required a developer to manually write thousands of lines of code, search through documentation, debug errors, and spend countless hours solving small problems. Recently, I experimented with something completely different: vibe coding. Instead of writing every part of the application manually, I collaborated with AI to build an e-commerce platform by describing what I wanted, reviewing generated solutions, and guiding the development process. What surprised me was not only AI's ability to generate code but its ability to understand context, execute commands, analyze errors, interact with browsers, and assist like a development partner. This experience made me realize that software development is entering a completely new era. The question is no longer whether AI will affect developers, but how developers will adapt and grow alongside AI.",
-
-                "wit": {
-                    "header": "AI: What Is Actually Happening?",
-                    "def": "Artificial Intelligence (AI) is a field of computer science focused on creating systems that can perform tasks that usually require human intelligence, including learning, reasoning, understanding language, recognizing patterns, and making decisions.",
-                    "points": [
-                        "AI does not think like humans. Instead, it identifies patterns from enormous amounts of data and generates responses based on those patterns.",
-                        "Modern AI models can understand programming languages, natural language, images, and complex instructions.",
-                        "Large Language Models (LLMs) are trained using billions of examples, allowing them to predict and generate useful information.",
-                        "AI agents go beyond simple chat responses by planning tasks, using external tools, executing actions, and interacting with software.",
-                        "AI becomes more powerful when combined with human guidance, creativity, and decision-making."
-                    ],
-                    "ending": "The power of AI comes from collaboration between human intelligence and machine capabilities. AI is not replacing intelligence; it is changing how intelligence is applied."
-                },
-
-                "works": {
-                    "header": "⚙️ How AI Coding Assistants Actually Work",
-                    "def": "AI coding assistants work by analyzing patterns learned from billions of examples of text and code. When a developer gives a prompt, the AI predicts and generates useful responses based on its training.",
-                    "points": [
-                        "Understanding Prompt: AI analyzes the developer's request and identifies the required task.",
-                        "Generating Solution: AI creates code, explanations, or possible approaches.",
-                        "Tool Usage: Advanced AI agents can execute commands, inspect files, browse websites, and interact with applications.",
-                        "Feedback Loop: Developers review AI output, provide corrections, and improve the final result.",
-                        "Human Decision Making: Developers remain responsible for architecture, security, and final implementation."
-                    ],
-                    "ending": "The biggest change is that developers are moving from writing every single line of code manually to designing systems, solving problems, and guiding AI effectively."
-                },
-
-                "protect_type": {
-                    "header": "🛡️ How Developers Can Avoid Being Replaced by AI",
-                    "def": "The rise of AI does not mean developers become useless. However, developers who only know how to write code without understanding the bigger picture may struggle. The key is to evolve from being a code writer into a problem solver, system designer, and technology creator.",
-                    "points": [
-                        "Learn problem-solving instead of only memorizing programming syntax. AI can generate code, but humans still need to decide what problems should be solved.",
-                        "Understand software architecture, databases, security, APIs, and system design because building reliable systems requires deeper technical knowledge.",
-                        "Use AI as a productivity multiplier rather than seeing it only as a competitor. Developers who know how to collaborate with AI can build faster and better.",
-                        "Improve communication skills because understanding user needs, business requirements, and human problems remains a major advantage.",
-                        "Build real-world projects because practical experience teaches decision-making, debugging, and handling challenges that AI cannot fully understand.",
-                        "Develop creativity and critical thinking because innovation comes from human experiences, imagination, and unique perspectives."
-                    ],
-                    "ending": "The developers who adapt with AI will have a significant advantage over those who ignore it. The future will not belong to AI alone or humans alone, but to those who can combine human creativity with artificial intelligence."
-                },
-
-                "tools": {
-                    "header": "🚀 My Experience: Building an E-commerce Platform Through Vibe Coding",
-                    "def": "During my experiment with vibe coding, I experienced how AI can transform the traditional development workflow:",
-                    "points": [
-                        "I could describe features in natural language instead of starting every feature from zero.",
-                        "AI helped generate frontend interfaces, backend logic, and repetitive code faster.",
-                        "AI assisted in finding bugs and explaining technical problems during development.",
-                        "AI agents could interact with development environments by running commands and analyzing results.",
-                        "Browser automation allowed AI to understand and test user interface behavior.",
-                        "The development process became more focused on architecture, decision-making, and improving the final product."
-                    ],
-                    "ending": "The experience showed me that AI is not simply a code generator. When used correctly, it becomes a development partner that increases creativity and productivity."
-                },
+                "introduction": [
+                    "A few days ago, building a complete e-commerce platform required a developer to manually write thousands of lines of code, search through documentation, debug errors, and spend countless hours solving small problems. Recently, I experimented with something completely different: vibe coding. Instead of writing every part of the application manually, I collaborated with AI to build an e-commerce platform by describing what I wanted, reviewing generated solutions, and guiding the development process. What surprised me was not only AI's ability to generate code but its ability to understand context, execute commands, analyze errors, interact with browsers, and assist like a development partner. This experience made me realize that software development is entering a completely new era. The question is no longer whether AI will affect developers, but how developers will adapt and grow alongside AI."
+                ],
+                "codeContent": [],
+                "imageContent": [],
+                "normalContent": [
+                    {
+                        "label": "understanding_ai",
+                        "header": "AI: What Is Actually Happening?",
+                        "def": "Artificial Intelligence (AI) is a field of computer science focused on creating systems that can perform tasks that usually require human intelligence, including learning, reasoning, understanding language, recognizing patterns, and making decisions.",
+                        "points": [
+                            "AI does not think like humans. Instead, it identifies patterns from enormous amounts of data and generates responses based on those patterns.",
+                            "Modern AI models can understand programming languages, natural language, images, and complex instructions.",
+                            "Large Language Models (LLMs) are trained using billions of examples, allowing them to predict and generate useful information.",
+                            "AI agents go beyond simple chat responses by planning tasks, using external tools, executing actions, and interacting with software.",
+                            "AI becomes more powerful when combined with human guidance, creativity, and decision-making."
+                        ],
+                        "isPoint": true,
+                        "ending": "The power of AI comes from collaboration between human intelligence and machine capabilities. AI is not replacing intelligence; it is changing how intelligence is applied."
+                    },
+                    {
+                        "label": "how_ai_coding_works",
+                        "header": "⚙️ How AI Coding Assistants Actually Work",
+                        "def": "AI coding assistants work by analyzing patterns learned from billions of examples of text and code. When a developer gives a prompt, the AI predicts and generates useful responses based on its training.",
+                        "points": [
+                            "Understanding Prompt: AI analyzes the developer's request and identifies the required task.",
+                            "Generating Solution: AI creates code, explanations, or possible approaches.",
+                            "Tool Usage: Advanced AI agents can execute commands, inspect files, browse websites, and interact with applications.",
+                            "Feedback Loop: Developers review AI output, provide corrections, and improve the final result.",
+                            "Human Decision Making: Developers remain responsible for architecture, security, and final implementation."
+                        ],
+                        "isPoint": true,
+                        "ending": "The biggest change is that developers are moving from writing every single line of code manually to designing systems, solving problems, and guiding AI effectively."
+                    },
+                    {
+                        "label": "developer_adaptation",
+                        "header": "🛡️ How Developers Can Avoid Being Replaced by AI",
+                        "def": "The rise of AI does not mean developers become useless. However, developers who only know how to write code without understanding the bigger picture may struggle. The key is to evolve from being a code writer into a problem solver, system designer, and technology creator.",
+                        "points": [
+                            "Learn problem-solving instead of only memorizing programming syntax. AI can generate code, but humans still need to decide what problems should be solved.",
+                            "Understand software architecture, databases, security, APIs, and system design because building reliable systems requires deeper technical knowledge.",
+                            "Use AI as a productivity multiplier rather than seeing it only as a competitor. Developers who know how to collaborate with AI can build faster and better.",
+                            "Improve communication skills because understanding user needs, business requirements, and human problems remains a major advantage.",
+                            "Build real-world projects because practical experience teaches decision-making, debugging, and handling challenges that AI cannot fully understand.",
+                            "Develop creativity and critical thinking because innovation comes from human experiences, imagination, and unique perspectives."
+                        ],
+                        "isPoint": true,
+                        "ending": "The developers who adapt with AI will have a significant advantage over those who ignore it. The future will not belong to AI alone or humans alone, but to those who can combine human creativity with artificial intelligence."
+                    },
+                    {
+                        "label": "vibe_coding_experience",
+                        "header": "🚀 My Experience: Building an E-commerce Platform Through Vibe Coding",
+                        "def": "During my experiment with vibe coding, I experienced how AI can transform the traditional development workflow:",
+                        "points": [
+                            "I could describe features in natural language instead of starting every feature from zero.",
+                            "AI helped generate frontend interfaces, backend logic, and repetitive code faster.",
+                            "AI assisted in finding bugs and explaining technical problems during development.",
+                            "AI agents could interact with development environments by running commands and analyzing results.",
+                            "Browser automation allowed AI to understand and test user interface behavior.",
+                            "The development process became more focused on architecture, decision-making, and improving the final product."
+                        ],
+                        "isPoint": true,
+                        "ending": "The experience showed me that AI is not simply a code generator. When used correctly, it becomes a development partner that increases creativity and productivity."
+                    }
+                ],
 
                 "faq": [
                     {
@@ -128,54 +351,69 @@
             "reading_time_minutes": "10",
             "subtitle": "A practical guide for students to build a powerful developer portfolio before graduation by creating meaningful projects, showcasing code on GitHub, and building a strong online presence that attracts recruiters.",
             "content": {
-                "introduction": "In today's competitive technology industry, students cannot rely only on academic degrees to secure developer jobs. Employers want to see real-world skills, problem-solving ability, and practical experience. A strong developer portfolio allows students to demonstrate their programming knowledge through projects, code repositories, and technical work. By building useful applications, maintaining a professional GitHub profile, and sharing technical knowledge online, students can significantly increase their chances of getting internships and full-time developer roles before graduation.",
-                "wit": {
-                    "header": "Understanding a Developer Portfolio",
-                    "def": "A developer portfolio is a curated collection of projects, code samples, and technical achievements that demonstrate a developer's practical skills and experience.",
-                    "points": [
-                        "A portfolio highlights real programming projects rather than theoretical knowledge.",
-                        "It shows recruiters how a student solves problems using technology.",
-                        "Most portfolios include project descriptions, GitHub repositories, and live demos.",
-                        "A well-structured portfolio reflects coding style, creativity, and technical growth.",
-                        "Employers often evaluate portfolios before scheduling technical interviews."
-                    ],
-                    "ending": "For students entering the tech industry, a well-built developer portfolio can become the most powerful tool for demonstrating practical skills."
-                },
-                "works": {
-                    "header": " 🧩 Key Elements of a Strong Student Developer Portfolio",
-                    "def": "A strong developer portfolio should clearly present a student's technical abilities and projects.",
-                    "points": [
-                        "Personal Portfolio Website: A professional website that introduces the developer, skills, and projects.",
-                        "GitHub Profile: A well-organized repository showing coding practices, commits, and project history.",
-                        "Real Projects: Applications that solve real-world problems such as management systems or productivity tools.",
-                        "Clear Documentation: README files explaining project features, technologies used, and setup instructions.",
-                        "Project Demonstrations: Screenshots, videos, or live project links that allow recruiters to explore the application."
-                    ],
-                    "ending": "These elements help recruiters quickly understand the student's technical ability and project experience."
-                },
-                "protect_type": {
-                    "header": "💻 Best Projects to Include in a Developer Portfolio",
-                    "points": [
-                        "Full Stack Applications: Projects that include frontend, backend, and database integration.",
-                        "Problem-Solving Tools: Utilities such as text processors, calculators, or productivity tools.",
-                        "Management Systems: Examples include student management, library management, or task management systems.",
-                        "Interactive Web Applications: Projects using modern frameworks like React or JavaScript-based UI interactions.",
-                        "API-Based Applications: Projects that integrate external APIs to demonstrate real-world development skills."
-                    ],
-                    "ending": "Including diverse projects helps demonstrate versatility and practical software development experience."
-                },
-                "tools": {
-                    "header": "🚀 Strategies to Improve Your Developer Portfolio",
-                    "def": "Building a strong developer portfolio requires consistency, learning, and continuous improvement.",
-                    "points": [
-                        "Upload all projects to GitHub and maintain a clean repository structure.",
-                        "Write technical blogs explaining concepts or project development processes.",
-                        "Keep improving existing projects by adding new features and optimizing code.",
-                        "Participate in open-source projects to gain collaborative development experience.",
-                        "Create a professional LinkedIn profile and share projects with the developer community."
-                    ],
-                    "ending": "These strategies help students continuously grow their skills and strengthen their professional presence in the tech industry."
-                },
+                "introduction": [
+                    "In today's competitive technology industry, students cannot rely only on academic degrees to secure developer jobs. Employers want to see real-world skills, problem-solving ability, and practical experience. A strong developer portfolio allows students to demonstrate their programming knowledge through projects, code repositories, and technical work. By building useful applications, maintaining a professional GitHub profile, and sharing technical knowledge online, students can significantly increase their chances of getting internships and full-time developer roles before graduation."
+                ],
+                "codeContent": [],
+                "imageContent": [],
+                "normalContent": [
+                    {
+                        "label": "understanding",
+                        "header": "Understanding a Developer Portfolio",
+                        "def": "A developer portfolio is a curated collection of projects, code samples, and technical achievements that demonstrate a developer's practical skills and experience.",
+                        "points": [
+                            "A portfolio highlights real programming projects rather than theoretical knowledge.",
+                            "It shows recruiters how a student solves problems using technology.",
+                            "Most portfolios include project descriptions, GitHub repositories, and live demos.",
+                            "A well-structured portfolio reflects coding style, creativity, and technical growth.",
+                            "Employers often evaluate portfolios before scheduling technical interviews."
+                        ],
+                        "isPoint": true,
+                        "ending": "For students entering the tech industry, a well-built developer portfolio can become the most powerful tool for demonstrating practical skills."
+                    },
+                    {
+                        "label": "key_elements",
+                        "header": "🧩 Key Elements of a Strong Student Developer Portfolio",
+                        "def": "A strong developer portfolio should clearly present a student's technical abilities and projects.",
+                        "points": [
+                            "Personal Portfolio Website: A professional website that introduces the developer, skills, and projects.",
+                            "GitHub Profile: A well-organized repository showing coding practices, commits, and project history.",
+                            "Real Projects: Applications that solve real-world problems such as management systems or productivity tools.",
+                            "Clear Documentation: README files explaining project features, technologies used, and setup instructions.",
+                            "Project Demonstrations: Screenshots, videos, or live project links that allow recruiters to explore the application."
+                        ],
+                        "isPoint": true,
+                        "ending": "These elements help recruiters quickly understand the student's technical ability and project experience."
+                    },
+                    {
+                        "label": "recommended_projects",
+                        "header": "💻 Best Projects to Include in a Developer Portfolio",
+                        "def": "",
+                        "points": [
+                            "Full Stack Applications: Projects that include frontend, backend, and database integration.",
+                            "Problem-Solving Tools: Utilities such as text processors, calculators, or productivity tools.",
+                            "Management Systems: Examples include student management, library management, or task management systems.",
+                            "Interactive Web Applications: Projects using modern frameworks like React or JavaScript-based UI interactions.",
+                            "API-Based Applications: Projects that integrate external APIs to demonstrate real-world development skills."
+                        ],
+                        "isPoint": true,
+                        "ending": "Including diverse projects helps demonstrate versatility and practical software development experience."
+                    },
+                    {
+                        "label": "improvement_strategies",
+                        "header": "🚀 Strategies to Improve Your Developer Portfolio",
+                        "def": "Building a strong developer portfolio requires consistency, learning, and continuous improvement.",
+                        "points": [
+                            "Upload all projects to GitHub and maintain a clean repository structure.",
+                            "Write technical blogs explaining concepts or project development processes.",
+                            "Keep improving existing projects by adding new features and optimizing code.",
+                            "Participate in open-source projects to gain collaborative development experience.",
+                            "Create a professional LinkedIn profile and share projects with the developer community."
+                        ],
+                        "isPoint": true,
+                        "ending": "These strategies help students continuously grow their skills and strengthen their professional presence in the tech industry."
+                    }
+                ],
                 "faq": [
                     {
                         "id": "1",
@@ -213,54 +451,69 @@
             "reading_time_minutes": "10",
             "subtitle": "Explore Kapuche Glacier Lake in the Annapurna region — the world's lowest-altitude glacier lake — and experience untouched Himalayan landscapes along with rich Gurung culture.",
             "content": {
-                "introduction": "Kapuche Glacier Lake is a newly emerging trekking destination located in the Annapurna region of Nepal. Situated near the traditional Gurung village of Sikles in the Kaski district, this pristine alpine lake is renowned as the world's lowest-altitude glacier lake. Surrounded by dramatic Himalayan peaks such as Annapurna II, Annapurna IV, Lamjung Himal, and Dhaulagiri, Kapuche offers travelers a rare combination of glacial beauty, cultural richness, and peaceful trails away from commercial trekking routes.",
-                "wit": {
-                    "header": "Kapuche Glacier Lake Overview",
-                    "def": "Kapuche Glacier Lake lies at an altitude of approximately 2,546 meters above sea level within the Annapurna Conservation Area of Nepal.",
-                    "points": [
-                        "Altitude: Approximately 2,546 meters above sea level, making it the world's lowest glacier lake.",
-                        "Location: Sikles, Kaski District, Gandaki Province, Nepal.",
-                        "Name Origin: The name 'Kapuche' comes from local terms meaning snow melt on flat land.",
-                        "Lake Features: Crystal-clear turquoise water fed directly by glacial ice.",
-                        "Environment: Surrounded by towering Himalayan peaks and untouched alpine terrain."
-                    ],
-                    "ending": "These unique geographical features make Kapuche Glacier Lake one of Nepal's most fascinating and accessible glacial destinations."
-                },
-                "works": {
-                    "header": "🛣️ How to Reach Kapuche Glacier Lake",
-                    "def": "Reaching Kapuche Glacier Lake involves a combination of road travel and trekking:",
-                    "points": [
-                        "Pokhara: Begin your journey from Pokhara, the main tourism hub of western Nepal.",
-                        "Drive to Sikles: Travel by jeep or four-wheel drive vehicle. The road includes a mix of well-developed sections and off-road terrain.",
-                        "Sikles to Hugu Goth: Trek for about 6-7 hours through forested trails, waterfalls, and mountain paths.",
-                        "Hugu Goth to Kapuche Lake: A 2-3 hour hike leading to the glacier lake.",
-                        "Return Journey: Retrace the same route back to Sikles and Pokhara."
-                    ],
-                    "ending": "The journey itself is an adventure, offering scenic landscapes, forest trails, and panoramic mountain views."
-                },
-                "protect_type": {
-                    "header": "🌄 Places to Visit Along the Trek",
-                    "points": [
-                        "Kapuche Glacier Lake: A serene glacier-fed lake offering breathtaking alpine scenery.",
-                        "Sikles Village: A culturally rich Gurung settlement known for traditional stone houses and warm hospitality.",
-                        "Forest Trails & Waterfalls: Dense forests, rhododendron paths, and scenic waterfalls along the trekking route.",
-                        "Hugu Goth & Shepherd Outposts: Remote grazing grounds used by local shepherds.",
-                        "Kori Danda (कोरी डाँडा): A scenic hill offering panoramic views of Annapurna, Lamjung Himal, Machhapuchhre, and Manaslu."
-                    ],
-                    "ending": "Each location adds its own charm, making the trek diverse and deeply rewarding."
-                },
-                "tools": {
-                    "header": "🎒 Activities & Cultural Experiences",
-                    "def": "The Kapuche trek offers more than just scenic views:",
-                    "points": [
-                        "Trekking through untouched Himalayan trails.",
-                        "Staying in local homestays and experiencing Gurung culture.",
-                        "Photography of alpine landscapes, villages, and mountain peaks.",
-                        "Bird watching and observing local wildlife.",
-                        "Camping and stargazing near high-altitude meadows."
-                    ],
-                    "ending": "These experiences make Kapuche an ideal destination for travelers seeking both adventure and cultural immersion."
-                },
+                "introduction": [
+                    "Kapuche Glacier Lake is a newly emerging trekking destination located in the Annapurna region of Nepal. Situated near the traditional Gurung village of Sikles in the Kaski district, this pristine alpine lake is renowned as the world's lowest-altitude glacier lake. Surrounded by dramatic Himalayan peaks such as Annapurna II, Annapurna IV, Lamjung Himal, and Dhaulagiri, Kapuche offers travelers a rare combination of glacial beauty, cultural richness, and peaceful trails away from commercial trekking routes."
+                ],
+                "codeContent": [],
+                "imageContent": [],
+                "normalContent": [
+                    {
+                        "label": "overview",
+                        "header": "Kapuche Glacier Lake Overview",
+                        "def": "Kapuche Glacier Lake lies at an altitude of approximately 2,546 meters above sea level within the Annapurna Conservation Area of Nepal.",
+                        "points": [
+                            "Altitude: Approximately 2,546 meters above sea level, making it the world's lowest glacier lake.",
+                            "Location: Sikles, Kaski District, Gandaki Province, Nepal.",
+                            "Name Origin: The name 'Kapuche' comes from local terms meaning snow melt on flat land.",
+                            "Lake Features: Crystal-clear turquoise water fed directly by glacial ice.",
+                            "Environment: Surrounded by towering Himalayan peaks and untouched alpine terrain."
+                        ],
+                        "isPoint": true,
+                        "ending": "These unique geographical features make Kapuche Glacier Lake one of Nepal's most fascinating and accessible glacial destinations."
+                    },
+                    {
+                        "label": "how_to_reach",
+                        "header": "🛣️ How to Reach Kapuche Glacier Lake",
+                        "def": "Reaching Kapuche Glacier Lake involves a combination of road travel and trekking:",
+                        "points": [
+                            "Pokhara: Begin your journey from Pokhara, the main tourism hub of western Nepal.",
+                            "Drive to Sikles: Travel by jeep or four-wheel drive vehicle. The road includes a mix of well-developed sections and off-road terrain.",
+                            "Sikles to Hugu Goth: Trek for about 6-7 hours through forested trails, waterfalls, and mountain paths.",
+                            "Hugu Goth to Kapuche Lake: A 2-3 hour hike leading to the glacier lake.",
+                            "Return Journey: Retrace the same route back to Sikles and Pokhara."
+                        ],
+                        "isPoint": true,
+                        "ending": "The journey itself is an adventure, offering scenic landscapes, forest trails, and panoramic mountain views."
+                    },
+                    {
+                        "label": "places_to_visit",
+                        "header": "🌄 Places to Visit Along the Trek",
+                        "def": "",
+                        "points": [
+                            "Kapuche Glacier Lake: A serene glacier-fed lake offering breathtaking alpine scenery.",
+                            "Sikles Village: A culturally rich Gurung settlement known for traditional stone houses and warm hospitality.",
+                            "Forest Trails & Waterfalls: Dense forests, rhododendron paths, and scenic waterfalls along the trekking route.",
+                            "Hugu Goth & Shepherd Outposts: Remote grazing grounds used by local shepherds.",
+                            "Kori Danda (कोरी डाँडा): A scenic hill offering panoramic views of Annapurna, Lamjung Himal, Machhapuchhre, and Manaslu."
+                        ],
+                        "isPoint": true,
+                        "ending": "Each location adds its own charm, making the trek diverse and deeply rewarding."
+                    },
+                    {
+                        "label": "activities_and_culture",
+                        "header": "🎒 Activities & Cultural Experiences",
+                        "def": "The Kapuche trek offers more than just scenic views:",
+                        "points": [
+                            "Trekking through untouched Himalayan trails.",
+                            "Staying in local homestays and experiencing Gurung culture.",
+                            "Photography of alpine landscapes, villages, and mountain peaks.",
+                            "Bird watching and observing local wildlife.",
+                            "Camping and stargazing near high-altitude meadows."
+                        ],
+                        "isPoint": true,
+                        "ending": "These experiences make Kapuche an ideal destination for travelers seeking both adventure and cultural immersion."
+                    }
+                ],
                 "faq": [
                     {
                         "id": "1",
@@ -298,36 +551,67 @@
             "reading_time_minutes": "6",
             "subtitle": "A complete breakdown of how Wi-Fi deauthentication attacks work, the technical steps behind executing one, and the most effective methods individuals and organizations can apply to defend against them in real-world scenarios.",
             "content": {
-                "introduction": "A deauthentication (deauth) attack abuses unauthenticated Wi-Fi management frames to force clients off an access point (AP). Because many Wi-Fi networks don't authenticate management frames, attackers can spoof AP addresses and send deauth or disassociation frames, causing service disruption and opening opportunities for follow-on attacks (e.g., rogue APs or captive portals).",
-                "wit": {
-                    "header": " Wi-Fi Deauthentication Attack ",
-                    "def": "A deauth attack takes advantage of weaknesses in Wi-Fi networks. By sending fake 'disconnect' signals, an attacker can:",
-                    "points": ["Force devices to disconnect from a Wi-Fi network.", "Interrupt internet access for everyone.", "Trick users into connecting to a fake Wi-Fi network (rogue hotspot)."],
-                    "ending": "Think of it like someone standing between you and your router, constantly saying: 'Hey, disconnect now!' — and your device listens."
-                },
+                "introduction": [
+                    "A deauthentication (deauth) attack abuses unauthenticated Wi-Fi management frames to force clients off an access point (AP). Because many Wi-Fi networks don't authenticate management frames, attackers can spoof AP addresses and send deauth or disassociation frames, causing service disruption and opening opportunities for follow-on attacks (e.g., rogue APs or captive portals)."
+                ],
+                "codeContent": [],
+                "imageContent": [],
+                "normalContent": [
+                    {
+                        "label": "introduction",
+                        "header": "Wi-Fi Deauthentication Attack",
+                        "def": "A deauth attack takes advantage of weaknesses in Wi-Fi networks. By sending fake 'disconnect' signals, an attacker can:",
+                        "points": [
+                            "Force devices to disconnect from a Wi-Fi network.",
+                            "Interrupt internet access for everyone.",
+                            "Trick users into connecting to a fake Wi-Fi network (rogue hotspot)."
+                        ],
+                        "isPoint": true,
+                        "ending": "Think of it like someone standing between you and your router, constantly saying: 'Hey, disconnect now!' — and your device listens."
+                    },
+                    {
+                        "label": "how_it_works",
+                        "header": "🛠️ How the Attack Works (Simplified)",
+                        "def": "",
+                        "points": [
+                            "Wi-Fi uses management signals (frames) that usually aren't secured.",
+                            "An attacker forges these signals, pretending to be the router.",
+                            "Your device believes it's real and disconnects.",
+                            "This can be repeated endlessly, knocking you offline."
+                        ],
+                        "isPoint": true,
+                        "ending": ""
+                    },
+                    {
+                        "label": "protection",
+                        "header": "🛡️ How to Protect Yourself",
+                        "def": "",
+                        "points": [
+                            "Enable PMF (Protected Management Frames) - Many modern routers and devices support this.",
+                            "Use a VPN - Helps secure data even if you reconnect to suspicious Wi-Fi.",
+                            "Avoid public Wi-Fi for sensitive tasks - Prefer mobile data or hotspot.",
+                            "Keep devices updated - New firmware often includes security patches.",
+                            "Monitor unusual drops - If Wi-Fi disconnects frequently in public, be cautious."
+                        ],
+                        "isPoint": true,
+                        "ending": ""
+                    },
 
-                "works": {
-                    "header": "🛠️How the Attack Works (Simplified)",
-                    "def": "",
-                    "points": [
-                        "Wi-Fi uses management signals (frames) that usually aren't secured.",
-                        "An attacker forges these signals, pretending to be the router.",
-                        "Your device believes it's real and disconnects.",
-                        "This can be repeated endlessly, knocking you offline."
-                    ],
-                    "ending": ""
-                },
-                "protect_type": {
-                    "header": "🛡️How to Protect Yourself ",
-                    "points": [
-                        "Enable PMF (Protected Management Frames) - Many modern routers and devices support this.",
-                        "Use a VPN - Helps secure data even if you reconnect to suspicious Wi-Fi.",
-                        "Avoid public Wi-Fi for sensitive tasks - Prefer mobile data or hotspot.",
-                        "Keep devices updated - New firmware often includes security patches.",
-                        "Monitor unusual drops - If Wi-Fi disconnects frequently in public, be cautious."
-                    ],
-                    "ending": ""
-                },
+                    {
+                        "label": "tools",
+                        "header": "🧰 Tools & (Non-Actionable) Command Notes",
+                        "def": "The following tools are often referenced in wireless security research and penetration testing labs:",
+                        "points": [
+                            "aircrack-ng (suite): A collection of programs used for wireless auditing and testing.",
+                            "airodump-ng: Scans and lists Wi-Fi networks and connected clients.",
+                            "aireplay-ng: Packet injection tool for controlled simulations.",
+                            "airmon-ng: Helps create/manage monitor-mode interfaces on adapters.",
+                            "iw / iwconfig / ifconfig: Utilities to inspect and adjust wireless interface state."
+                        ],
+                        "isPoint": true,
+                        "ending": "Note: These tools must only be used in environments where you have full permission."
+                    }
+                ],
                 "faq": [
                     {
                         "id": "1",
@@ -345,18 +629,6 @@
                         "ans": "Yes, but enabling PMF and keeping devices updated makes it harder."
                     }
                 ],
-                "tools": {
-                    "header": "🧰Tools & (Non-Actionable) Command Notes",
-                    "def": "The following tools are often referenced in wireless security research and penetration testing labs:",
-                    "points": [
-                        "aircrack-ng (suite): A collection of programs used for wireless auditing and testing.",
-                        "airodump-ng: Scans and lists Wi-Fi networks and connected clients.",
-                        "aireplay-ng: Packet injection tool for controlled simulations.",
-                        "airmon-ng: Helps create/manage monitor-mode interfaces on adapters.",
-                        "iw / iwconfig / ifconfig: Utilities to inspect and adjust wireless interface state."
-                    ],
-                    "ending": "Note: These tools must only be used in environments where you have full permission."
-                },
                 "conclusion": "⚠️ Deauthentication attacks show how fragile older Wi-Fi standards are. While attackers use it for disruption or bigger hacks, you can stay safe with a few preventive steps. Remember — knowledge is defense, not a license to hack."
             }
         },
@@ -372,39 +644,66 @@
             "reading_time_minutes": "4",
             "subtitle": "Machine Learning (ML) is one of the most exciting technologies in the digital world. It powers features you use every day: from Netflix recommendations, voice assistants, to self-driving cars.",
             "content": {
-                "introduction": "Machine Learning (ML) is one of the most exciting technologies in the digital world. It powers features you use every day: from Netflix recommendations, voice assistants, to self-driving cars. ML is more than just a buzzword; it is reshaping industries and the way we interact with technology. If you're new to the concept, ML might sound complicated, but this guide breaks it down in simple, easy-to-understand steps, so you can start learning and even building simple ML projects yourself.",
-                "wit": {
-                    "header": "Machine Learning",
-                    "def": "Machine Learning is a branch of Artificial Intelligence (AI) that enables computers to learn from data instead of following explicitly programmed instructions.",
-                    "points": [
-                        "Traditional programming: Humans write rules → computers follow them.",
-                        "Machine learning: Computers learn patterns from data → make decisions or predictions automatically."
-                    ],
-                    "ending": "ML allows computers to perform tasks such as predicting outcomes, classifying information, and making decisions based on data patterns."
-                },
-                "works": {
-                    "header": "⚙️ How Machine Learning Works (Simplified)",
-                    "def": "Machine Learning operates in a cycle of learning, testing, and improvement:",
-                    "points": [
-                        "Data Collection: Gather examples such as text, images, numbers, or sensor readings.",
-                        "Data Preparation: Clean and organize data to ensure accuracy.",
-                        "Model Training: Feed the data into a machine learning algorithm to identify patterns.",
-                        "Testing: Evaluate the model's predictions on new, unseen data.",
-                        "Improvement: Refine and retrain the model to increase performance and accuracy."
-                    ],
-                    "ending": "📌 Infographic idea: Flowchart showing Data → Model → Predictions → Feedback / Improvement."
-                },
-                "protect_type": {
-                    "header": "Types of Machine Learning",
-                    "points": [
-                        "Supervised Learning: Learns from labeled data, where the correct answers are known.",
-                        "Unsupervised Learning: Finds patterns in unlabeled data without pre-defined answers.",
-                        "Reinforcement Learning: Learns by trial and error with feedback through rewards or penalties.",
-                        "Semi-Supervised Learning: Combines a small amount of labeled data with a large amount of unlabeled data.",
-                        "Deep Learning: Uses neural networks to process large amounts of data, often used in image and speech recognition."
-                    ],
-                    "ending": ""
-                },
+                "introduction": [
+                    "Machine Learning (ML) is one of the most exciting technologies in the digital world. It powers features you use every day: from Netflix recommendations, voice assistants, to self-driving cars. ML is more than just a buzzword; it is reshaping industries and the way we interact with technology. If you're new to the concept, ML might sound complicated, but this guide breaks it down in simple, easy-to-understand steps, so you can start learning and even building simple ML projects yourself."
+                ],
+                "codeContent": [],
+                "imageContent": [],
+                "normalContent": [
+                    {
+                        "label": "wit",
+                        "header": "   What is Machine Learning",
+                        "def": "Machine Learning is a branch of Artificial Intelligence (AI) that enables computers to learn from data instead of following explicitly programmed instructions.",
+                        "points": [
+                            "Traditional programming: Humans write rules → computers follow them.",
+                            "Machine learning: Computers learn patterns from data → make decisions or predictions automatically."
+                        ],
+                        "isPoint": true,
+                        "ending": "ML allows computers to perform tasks such as predicting outcomes, classifying information, and making decisions based on data patterns."
+                    },
+                    {
+                        "label": "works",
+                        "header": "⚙️ How Machine Learning Works (Simplified)",
+                        "def": "Machine Learning operates in a cycle of learning, testing, and improvement:",
+                        "points": [
+                            "Data Collection: Gather examples such as text, images, numbers, or sensor readings.",
+                            "Data Preparation: Clean and organize data to ensure accuracy.",
+                            "Model Training: Feed the data into a machine learning algorithm to identify patterns.",
+                            "Testing: Evaluate the model's predictions on new, unseen data.",
+                            "Improvement: Refine and retrain the model to increase performance and accuracy."
+                        ],
+                        "isPoint": true,
+                        "ending": "📌 Infographic idea: Flowchart showing Data → Model → Predictions → Feedback / Improvement."
+                    },
+                    {
+                        "label": "types",
+                        "header": "Types of Machine Learning",
+                        "points": [
+                            "Supervised Learning: Learns from labeled data, where the correct answers are known.",
+                            "Unsupervised Learning: Finds patterns in unlabeled data without pre-defined answers.",
+                            "Reinforcement Learning: Learns by trial and error with feedback through rewards or penalties.",
+                            "Semi-Supervised Learning: Combines a small amount of labeled data with a large amount of unlabeled data.",
+                            "Deep Learning: Uses neural networks to process large amounts of data, often used in image and speech recognition."
+                        ],
+                        "isPoint": true
+                    },
+                    {
+                        "label": "real_life_application",
+                        "header": "Real-Life Application Of Machine Learning",
+                        "def": "Machine Learning powers numerous technologies we use daily:",
+                        "points": [
+                            "E-commerce: Personalized product recommendations.",
+                            "Music apps: Suggesting songs based on listening history.",
+                            "Healthcare: Detecting diseases early through scans and predictive analytics.",
+                            "Self-driving cars: Recognizing road signs, pedestrians, and obstacles.",
+                            "Email services: Filtering spam automatically.",
+                            "Finance: Detecting fraudulent transactions in real time.",
+                            "Search engines: Delivering relevant results based on user behavior."
+                        ],
+                        "isPoint": true,
+                        "ending": "Note: These tools must only be used in environments where you have full permission."
+                    }
+                ],
                 "faq": [
                     {
                         "id": "1",
@@ -456,37 +755,63 @@
             "reading_time_minutes": "4",
             "subtitle": "Why clean, focused, and user-first website designs have become the standard in 2025 — benefits, trends, and practical tips to build modern minimalist sites.",
             "content": {
-                "introduction": "A minimalist website design prioritizes clarity, whitespace, and focused content over decorative clutter. In 2025, websites are increasingly adopting this approach to improve usability, speed, and aesthetic appeal.",
-                "wit": {
-                    "header": "Minimalist Web Design",
-                    "def": "Minimalist web design emphasizes simplicity and essential functionality. By removing unnecessary elements, designers can:",
-                    "points": ["Enhance user focus on essential content.", "Reduce cognitive overload and distractions.", "Create cleaner and more professional visual aesthetics."],
-                    "ending": "Think of it like cleaning a cluttered room: only what’s important remains visible, making the space easier to use and navigate."
-                },
-                "works": {
-                    "header": "🛠️ How Minimalism Works in Web Design",
-                    "def": "",
-                    "points": [
-                        "Use whitespace strategically to separate sections and guide attention.",
-                        "Limit color palettes to create visual harmony and reduce distractions.",
-                        "Apply simple and readable typography for clarity.",
-                        "Design intuitive navigation to enhance the user experience.",
-                        "Focus on core content and calls-to-action instead of decorative elements."
-                    ],
-                    "ending": ""
-                },
-                "protect_type": {
-                    "header": "🎨 Best Practices & Features of Minimalist Design",
-                    "def": "",
-                    "points": [
-                        "Prioritize essential content and remove unnecessary elements to reduce clutter.",
-                        "Ensure fast loading times for optimal user experience and SEO.",
-                        "Design responsive layouts that adapt seamlessly to mobile and desktop devices.",
-                        "Maintain a timeless aesthetic to minimize the need for frequent redesigns.",
-                        "Use subtle visuals and micro-interactions to guide users without distraction."
-                    ],
-                    "ending": "Applying these best practices ensures a clean, user-friendly website that enhances readability, improves navigation, and delivers a modern, professional look."
-                },
+                "introduction": [
+                    "A minimalist website design prioritizes clarity, whitespace, and focused content over decorative clutter. In 2025, websites are increasingly adopting this approach to improve usability, speed, and aesthetic appeal."
+                ],
+                "codeContent": [],
+                "imageContent": [],
+                "normalContent": [
+                    {
+                        "label": "wit",
+                        "header": "❓ What is Minimalist Web Design",
+                        "def": "Minimalist web design emphasizes simplicity and essential functionality. By removing unnecessary elements, designers can:",
+                        "points": ["Enhance user focus on essential content.", "Reduce cognitive overload and distractions.", "Create cleaner and more professional visual aesthetics."],
+                        "isPoint": true,
+                        "ending": "Think of it like cleaning a cluttered room: only what’s important remains visible, making the space easier to use and navigate."
+                    },
+                    {
+                        "label": "works",
+                        "header": "🛠️How Minimalism Works in Web Design",
+                        "def": "",
+                        "points": [
+                            "Use whitespace strategically to separate sections and guide attention.",
+                            "Limit color palettes to create visual harmony and reduce distractions.",
+                            "Apply simple and readable typography for clarity.",
+                            "Design intuitive navigation to enhance the user experience.",
+                            "Focus on core content and calls-to-action instead of decorative elements."
+                        ],
+                        "isPoint": true,
+                        "ending": ""
+                    },
+                    {
+                        "label": "protect_type",
+                        "header": "🎨Best Practices & Features of Minimalist Design",
+                        "def": "",
+                        "points": [
+                            "Prioritize essential content and remove unnecessary elements to reduce clutter.",
+                            "Ensure fast loading times for optimal user experience and SEO.",
+                            "Design responsive layouts that adapt seamlessly to mobile and desktop devices.",
+                            "Maintain a timeless aesthetic to minimize the need for frequent redesigns.",
+                            "Use subtle visuals and micro-interactions to guide users without distraction."
+                        ],
+                        "isPoint": true,
+                        "ending": "Applying these best practices ensures a clean, user-friendly website that enhances readability, improves navigation, and delivers a modern, professional look."
+                    },
+                    {
+                        "label": "tools",
+                        "header": "🧰Tools & Notes for Minimalist Design",
+                        "def": "These are popular tools and resources that designers use to implement minimalist web design principles:",
+                        "points": [
+                            "Figma or Adobe XD: For clean, precise interface layouts.",
+                            "TailwindCSS or Bootstrap: For efficient, responsive design components.",
+                            "Canva or Illustrator: For creating simple, impactful graphics.",
+                            "Google Fonts: For selecting readable and elegant typography.",
+                            "Lighthouse & PageSpeed Insights: For monitoring website performance."
+                        ],
+                        "isPoint": true,
+                        "ending": "Note: These tools help designers maintain minimalism while ensuring functionality and user experience."
+                    }
+                ],
                 "faq": [
                     {
                         "id": "1",
@@ -504,18 +829,6 @@
                         "ans": "Yes, but the degree of minimalism can vary depending on content type, brand personality, and user needs."
                     }
                 ],
-                "tools": {
-                    "header": "🧰 Tools & Notes for Minimalist Design",
-                    "def": "These are popular tools and resources that designers use to implement minimalist web design principles:",
-                    "points": [
-                        "Figma or Adobe XD: For clean, precise interface layouts.",
-                        "TailwindCSS or Bootstrap: For efficient, responsive design components.",
-                        "Canva or Illustrator: For creating simple, impactful graphics.",
-                        "Google Fonts: For selecting readable and elegant typography.",
-                        "Lighthouse & PageSpeed Insights: For monitoring website performance."
-                    ],
-                    "ending": "Note: These tools help designers maintain minimalism while ensuring functionality and user experience."
-                },
                 "conclusion": "Minimalist website design in 2025 focuses on clarity, speed, and user experience. By emphasizing essential content, whitespace, and intuitive navigation, websites become more effective, timeless, and visually appealing."
             }
         }
