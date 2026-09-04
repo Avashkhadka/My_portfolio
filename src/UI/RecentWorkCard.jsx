@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useIntersectionObserver } from "../Hooks/useIntersectionObserver";
+import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
 function Rcardcomp(props) {
     let Rcardcontainerbf = {
         // background-image:linear-gradient( 145deg , #073655 ,#020A0D) ;

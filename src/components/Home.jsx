@@ -4,7 +4,7 @@ import Aboutme from "./Aboutme";
 import Clients from "./Clients";
 import Recentworks from "./RecentWorks";
 import Myservices from "./Myservices";
-import { useIntersectionObserver } from "../Hooks/useIntersectionObserver";
+import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
 import Resume from "./Resume";
 import Kindwords from "./Kindwords";
 function Home() {

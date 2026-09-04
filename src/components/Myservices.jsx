@@ -1,7 +1,7 @@
 import React from "react";
 
-import { data } from "../Data/Services";
-import { ServicesItems } from "../UI/ServicesItems";
+import { data } from "../data/Services";
+import { ServicesItems } from "../ui/ServicesItems";
 
 function Myservices({ hasAnimated }) {
     return (

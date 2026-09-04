@@ -1,8 +1,8 @@
 import React from "react";
 
-import Rcardcomp from "../UI/RecentWorkCard";
+import Rcardcomp from "../ui/RecentWorkCard";
 
-import { works } from "../Data/RecentWorks";
+import { works } from "../data/RecentWorks";
 export default function Recentworks({hasAnimated}) {
    
     

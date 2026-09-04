@@ -31,7 +31,7 @@ function BlogCard({ content, setTobContext }) {
                                 {item.header}
                             </h2>
                             <div className="text-[16px] text-gray-300 opacity-80  md:opacity-100  flex flex-col gap-2">
-                                <p className="mb-2">{item.def}</p>
+                                <p className="mb-2 text-justify">{item.def}</p>
                                 {item.points && item.isPoint ? (
                                     <ul className="pl-10 sm:pl-15 list-disc">
                                         {item.points.map((item, index) => {
@@ -40,10 +40,10 @@ function BlogCard({ content, setTobContext }) {
                                     </ul>
                                 ) : item.points && !item.isPoint ? (
                                     item.points.map((item, index) => {
-                                        return <p key={index}>{item}</p>;
+                                        return <p className="mb-1 text-justify" key={index}>{item}</p>;
                                     })
                                 ) : null}
-                                {item.ending ? item.ending : null}
+                                {item.ending ? <p className="mt-0.5 text-justify">{item.ending}</p> : null}
                             </div>
                         </div>
                     );
@@ -55,7 +55,7 @@ function BlogCard({ content, setTobContext }) {
                         <h2 className="text-[24px] mb-3 sm:mb-0 sm:text-[32px] opacity-90 md:opacity-100 mt-10 font-medium text-gray-200 " id="toc_conclusion">
                             ✅ Conclusion
                         </h2>
-                        <p className="text-[16px] text-gray-300 opacity-80  md:opacity-100">{content.conclusion}</p>
+                        <p className="text-[16px] text-gray-300 opacity-80  md:opacity-100 text-justify space-y-2">{content.conclusion && content.conclusion.map((para, index) => <p key={index} >{para}</p>)}</p>
                     </>
                 ) : null}
             </>

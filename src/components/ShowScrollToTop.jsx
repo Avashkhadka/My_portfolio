@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import useScrollToTop from "../Hooks/useScrollToTop";
+import useScrollToTop from "../hooks/useScrollToTop";
 
 function ShowScrollToTop() {
     const Scrollbackref = useRef();

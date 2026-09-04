@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-import ResumeExpCard from "../UI/ResumeExpCard";
-import SkillsCard from "../UI/SkillsCard";
+import ResumeExpCard from "../ui/ResumeExpCard";
+import SkillsCard from "../ui/SkillsCard";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact, FaBootstrap } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
-import { ResumeDataContainer } from "../Data/Resume";
+import { ResumeDataContainer } from "../data/Resume";
 function Resume({ hasAnimated }) {
     const [currentCompontnt, setCurrentComponent] = useState("Experience");
     const changeComponent = (component, id) => {
