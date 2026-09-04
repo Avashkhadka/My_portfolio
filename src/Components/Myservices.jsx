@@ -1,6 +1,6 @@
 import React from "react";
 
-import { data } from "../data/Services";
+import { data } from "../Data/Services";
 import { ServicesItems } from "../UI/ServicesItems";
 
 function Myservices({ hasAnimated }) {
