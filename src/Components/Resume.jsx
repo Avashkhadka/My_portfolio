@@ -6,7 +6,7 @@ import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact, FaBootstrap } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
-import { ResumeDataContainer } from "../data/Resume";
+import { ResumeDataContainer } from "../Data/Resume";
 function Resume({ hasAnimated }) {
     const [currentCompontnt, setCurrentComponent] = useState("Experience");
     const changeComponent = (component, id) => {
